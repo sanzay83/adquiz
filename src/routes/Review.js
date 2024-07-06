@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function Review() {
   return (
     <div>
-      <Link to="/">
-        <button className="buton">Close Button</button>
+      <Link className="exit" to="/">
+        X
       </Link>
     </div>
   );

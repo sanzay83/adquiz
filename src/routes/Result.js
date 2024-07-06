@@ -1,20 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Result.css";
 
 function Result() {
   return (
-    <div>
-      This is a result page
-      <Link to="/">
-        <button className="buton">Home</button>
+    <>
+      <Link className="exit" to="/">
+        X
       </Link>
-      <Link to="/quiz">
-        <button className="buton">Next Attempt</button>
-      </Link>
-      <Link to="/review">
-        <button className="buton">Review</button>
-      </Link>
-    </div>
+      <div className="halfBackground"> </div>
+      <div className="trf">
+        <img src={require("./background.png")} /> <br />
+        Conditional Text
+      </div>
+      <div className="resultButtonContainer">
+        <Link to="/quiz">
+          <button className="button">Next Attempt</button>
+        </Link>
+        <Link to="/review">
+          <button className="button">Review</button>
+        </Link>
+      </div>
+    </>
   );
 }
 

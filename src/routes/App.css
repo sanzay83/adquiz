@@ -15,24 +15,10 @@ html,
   color: white;
 }
 
-.quiz-container {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.quiz-container h1 {
-  font-size: 2rem;
-  margin: 0 0 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
 .button {
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 0, 0, 0.35);
+  border: 1px solid rgba(255, 0, 0, 0.35);
+  width: 160px;
   border-radius: 5px;
   color: white;
   font-size: 1.2rem;
@@ -46,7 +32,39 @@ html,
   background: rgba(255, 255, 255, 0.4);
   transform: scale(1.05);
 }
-.Home {
-  display: flex;
-  flex-direction: column;
+
+/* QUIZ PAGINATION */
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.exit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid #ff0000;
+  background-color: red;
+  color: #ddd;
+  text-align: center;
+  border-radius: 20px;
 }

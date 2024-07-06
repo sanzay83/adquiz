@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 function Progress() {
   return (
     <div className="progress">
-      This is Progess
-      <Link to="/">
-        <button className="buton">Close Button</button>
+      <Link className="exit" to="/">
+        X
       </Link>
+      This is Progess
     </div>
   );
 }
