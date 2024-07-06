@@ -15,13 +15,6 @@ html,
   color: white;
 }
 
-.App-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
 .quiz-container {
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -37,8 +30,7 @@ html,
   letter-spacing: 2px;
 }
 
-.start-button,
-.bottom-buttons button {
+.button {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 5px;
@@ -50,13 +42,7 @@ html,
   transition: background 0.3s, transform 0.3s;
 }
 
-.start-button:hover,
-.bottom-buttons button:hover {
+.button:hover {
   background: rgba(255, 255, 255, 0.4);
   transform: scale(1.05);
-}
-
-.bottom-buttons {
-  display: flex;
-  justify-content: center;
 }
