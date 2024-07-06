@@ -8,7 +8,7 @@ html,
 
 .App {
   text-align: center;
-  background-image: url("background.png");
+  background-image: url("../../assets/background.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -45,4 +45,8 @@ html,
 .button:hover {
   background: rgba(255, 255, 255, 0.4);
   transform: scale(1.05);
+}
+.Home {
+  display: flex;
+  flex-direction: column;
 }
