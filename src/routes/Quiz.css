@@ -1,0 +1,38 @@
+.halfBackground {
+  text-align: center;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+}
+
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.question-text {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.option {
+  background-color: red;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: red;
+}

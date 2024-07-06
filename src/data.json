@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "what is your name?",
+    "options": ["san", "jay", "kumar", "sanjay"],
+    "correct": "sanjay"
+  },
+  {
+    "id": 2,
+    "question": "Where do you live?",
+    "options": ["san", "jay", "kumar", "sanjay"],
+    "correct": "san"
+  },
+  {
+    "id": 3,
+    "question": "what is your school name?",
+    "options": ["san", "jay", "kumar", "sanjay"],
+    "correct": "kumar"
+  },
+  {
+    "id": 4,
+    "question": "Where do you live?",
+    "options": ["san", "jay", "kumar", "sanjay"],
+    "correct": "san"
+  }
+]
