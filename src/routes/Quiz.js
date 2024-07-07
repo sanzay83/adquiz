@@ -70,6 +70,15 @@ function Quiz() {
         X
       </Link>
       <div className="halfBackground"></div>
+      {Array.from({ length: totalPages }, (_, index) => (
+        <button
+          key={index + 1}
+          className={currentPage === index + 1 ? "active" : ""}
+          onClick={() => paginate(index + 1)}
+        >
+          {index + 1}
+        </button>
+      ))}
       <div className="quiz-container">
         {currentQuestions.map((data) => (
           <div key={data.id}>
@@ -94,31 +103,17 @@ function Quiz() {
         ))}
       </div>
       <div className="pagination">
-        <a
-          href="#"
+        <button
           onClick={() => paginate(currentPage - 1)}
           disabled={currentPage === 1}
         >
           Prev
-        </a>
-        {Array.from({ length: totalPages }, (_, index) => (
-          <a
-            key={index + 1}
-            href="#"
-            className={currentPage === index + 1 ? "active" : ""}
-            onClick={() => paginate(index + 1)}
-          >
-            {index + 1}
-          </a>
-        ))}
+        </button>
+
         {currentPage < totalPages ? (
-          <a href="#" onClick={() => paginate(currentPage + 1)}>
-            Next
-          </a>
+          <button onClick={() => paginate(currentPage + 1)}>Next</button>
         ) : (
-          <a href="#" onClick={handleSubmit}>
-            Submit
-          </a>
+          <button onClick={handleSubmit}>Submit</button>
         )}
       </div>
     </>

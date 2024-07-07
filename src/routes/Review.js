@@ -30,9 +30,7 @@ function Review() {
       <div className="review-container">
         {selectedQuestions.map((data) => (
           <div key={data.id}>
-            <div className="question-text">
-              {data.id + ". " + data.question}
-            </div>
+            <div className="question-text">{data.question}</div>
             {data.options.map((option, index) => {
               const isCorrect = option === data.correct;
               const isSelected = option === selectedAnswers[data.id];
