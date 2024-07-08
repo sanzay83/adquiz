@@ -1,0 +1,21 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeHeader {
+  background: rgba(0, 0, 0, 0.5);
+  width: 98%;
+  padding: 5px;
+  font-size: 2rem;
+  position: absolute;
+  top: 15%;
+  align-items: center;
+}
+
+.homeButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
