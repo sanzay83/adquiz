@@ -38,3 +38,7 @@
   width: 100%;
   justify-content: center;
 }
+
+.resultButtonContainer button {
+  background-color: rgb(179, 25, 66);
+}

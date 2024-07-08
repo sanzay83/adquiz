@@ -69,7 +69,7 @@ function Quiz() {
       <Link className="exit" to="/">
         X
       </Link>
-      <div className="halfBackground"></div>
+      <div className="halfBackgroundQuiz"></div>
       <div className="pagination">
         {Array.from({ length: totalPages }, (_, index) => (
           <button
@@ -101,7 +101,7 @@ function Quiz() {
           </div>
         ))}
       </div>
-      <div className="pagination">
+      <div className="nextPrevButton">
         <button
           onClick={() => paginate(currentPage - 1)}
           disabled={currentPage === 1}
