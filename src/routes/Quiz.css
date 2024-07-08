@@ -1,14 +1,31 @@
 .halfBackground {
   text-align: center;
-  background-image: url("../../assets/background.png");
+  background-image: url("../assets/background.png");
   background-size: cover;
   background-position: center;
+}
 
+.pagination {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.pagination button {
+  background-color: red;
+  padding: 5px;
+  border-radius: 1px;
   color: white;
+  cursor: pointer;
+  padding: 7px;
+  margin: 1px;
+  font-size: 0.8em;
+}
+
+.pagination .active {
+  background-color: rgb(153, 18, 18);
 }
 
 .quiz-container {
-  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -22,17 +39,27 @@
 }
 
 .option {
-  background-color: red;
-  color: white;
-  border: none;
-  margin: 10px 0;
   border-radius: 5px;
-  cursor: pointer;
-  padding: 5px;
-  font-size: 1em;
-  transition: background-color 0.3s ease;
+  margin: 3px;
 }
 
-.option:hover {
+.option button {
   background-color: red;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  margin: 2px 0;
+  font-size: 1em;
+}
+
+.option .selected {
+  background-color: rgb(153, 18, 18);
+}
+
+.option button:hover {
+  background-color: rgb(190, 29, 29);
 }

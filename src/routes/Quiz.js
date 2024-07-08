@@ -12,9 +12,9 @@ function Quiz() {
   const questionsPerPage = 1;
 
   useEffect(() => {
-    // Randomly select 2 questions from AllData
+    // Randomly select 4 questions from AllData
     const shuffledQuestions = [...AllData].sort(() => 0.5 - Math.random());
-    const selected = shuffledQuestions.slice(0, 2);
+    const selected = shuffledQuestions.slice(0, 10);
     setSelectedQuestions(selected);
   }, []);
 
@@ -70,33 +70,32 @@ function Quiz() {
         X
       </Link>
       <div className="halfBackground"></div>
-      {Array.from({ length: totalPages }, (_, index) => (
-        <button
-          key={index + 1}
-          className={currentPage === index + 1 ? "active" : ""}
-          onClick={() => paginate(index + 1)}
-        >
-          {index + 1}
-        </button>
-      ))}
+      <div className="pagination">
+        {Array.from({ length: totalPages }, (_, index) => (
+          <button
+            key={index + 1}
+            className={currentPage === index + 1 ? "active" : ""}
+            onClick={() => paginate(index + 1)}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
+      <br /> <br />
       <div className="quiz-container">
         {currentQuestions.map((data) => (
           <div key={data.id}>
-            <div className="question-text">
-              {data.id + ". " + data.question}
-            </div>
+            <div className="question-text">{data.question}</div>
             {data.options.map((option, index) => (
               <div key={index} className="option">
-                <label>
-                  <input
-                    type="radio"
-                    name={`question-${data.id}`}
-                    value={option}
-                    checked={selectedAnswers[data.id] === option}
-                    onChange={() => handleOptionChange(data.id, option)}
-                  />
+                <button
+                  className={
+                    selectedAnswers[data.id] === option ? "selected" : ""
+                  }
+                  onClick={() => handleOptionChange(data.id, option)}
+                >
                   {option}
-                </label>
+                </button>
               </div>
             ))}
           </div>

@@ -1,26 +1,152 @@
 [
   {
-    "id": 1,
-    "question": "what is your name?",
-    "options": ["san", "jay", "kumar", "sanjay"],
-    "correct": "sanjay"
-  },
-  {
     "id": 2,
-    "question": "Where do you live?",
-    "options": ["san", "jay", "kumar", "sanjay"],
-    "correct": "san"
+    "question": "What is the supreme law of the land?",
+    "options": [
+      "The President",
+      "The Constitution",
+      "The Congress",
+      "The Supreme Court"
+    ],
+    "correct": "The Constitution"
   },
   {
     "id": 3,
-    "question": "what is your school name?",
-    "options": ["san", "jay", "kumar", "sanjay"],
-    "correct": "kumar"
+    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "options": [
+      "We the People",
+      "In God We Trust",
+      "E Pluribus Unum",
+      "United We Stand"
+    ],
+    "correct": "We the People"
   },
   {
     "id": 4,
-    "question": "Where do you live?",
-    "options": ["san", "jay", "kumar", "sanjay"],
-    "correct": "san"
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Federalist Papers",
+      "The Bill of Rights",
+      "The Articles of Confederation",
+      "The Emancipation Proclamation"
+    ],
+    "correct": "The Bill of Rights"
+  },
+  {
+    "id": 5,
+    "question": "How many amendments does the Constitution have?",
+    "options": ["Twenty-seven (27)", "Thirty (30)", "Ten (10)", "Fifty (50)"],
+    "correct": "Twenty-seven (27)"
+  },
+  {
+    "id": 6,
+    "question": "What is freedom of religion?",
+    "options": [
+      "You must practice a religion",
+      "You can practice any religion, or not practice a religion",
+      "The government chooses your religion",
+      "There is no freedom of religion"
+    ],
+    "correct": "You can practice any religion, or not practice a religion"
+  },
+  {
+    "id": 2,
+    "question": "What is the supreme law of the land?",
+    "options": [
+      "The President",
+      "The Constitution",
+      "The Congress",
+      "The Supreme Court"
+    ],
+    "correct": "The Constitution"
+  },
+  {
+    "id": 3,
+    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "options": [
+      "We the People",
+      "In God We Trust",
+      "E Pluribus Unum",
+      "United We Stand"
+    ],
+    "correct": "We the People"
+  },
+  {
+    "id": 4,
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Federalist Papers",
+      "The Bill of Rights",
+      "The Articles of Confederation",
+      "The Emancipation Proclamation"
+    ],
+    "correct": "The Bill of Rights"
+  },
+  {
+    "id": 5,
+    "question": "How many amendments does the Constitution have?",
+    "options": ["Twenty-seven (27)", "Thirty (30)", "Ten (10)", "Fifty (50)"],
+    "correct": "Twenty-seven (27)"
+  },
+  {
+    "id": 6,
+    "question": "What is freedom of religion?",
+    "options": [
+      "You must practice a religion",
+      "You can practice any religion, or not practice a religion",
+      "The government chooses your religion",
+      "There is no freedom of religion"
+    ],
+    "correct": "You can practice any religion, or not practice a religion"
+  },
+  {
+    "id": 2,
+    "question": "What is the supreme law of the land?",
+    "options": [
+      "The President",
+      "The Constitution",
+      "The Congress",
+      "The Supreme Court"
+    ],
+    "correct": "The Constitution"
+  },
+  {
+    "id": 3,
+    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "options": [
+      "We the People",
+      "In God We Trust",
+      "E Pluribus Unum",
+      "United We Stand"
+    ],
+    "correct": "We the People"
+  },
+  {
+    "id": 4,
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Federalist Papers",
+      "The Bill of Rights",
+      "The Articles of Confederation",
+      "The Emancipation Proclamation"
+    ],
+    "correct": "The Bill of Rights"
+  },
+  {
+    "id": 5,
+    "question": "How many amendments does the Constitution have?",
+    "options": ["Twenty-seven (27)", "Thirty (30)", "Ten (10)", "Fifty (50)"],
+    "correct": "Twenty-seven (27)"
+  },
+  {
+    "id": 6,
+    "question": "What is freedom of religion?",
+    "options": [
+      "You must practice a religion",
+      "You can practice any religion, or not practice a religion",
+      "The government chooses your religion",
+      "There is no freedom of religion"
+    ],
+    "correct": "You can practice any religion, or not practice a religion"
   }
 ]

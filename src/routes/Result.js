@@ -20,9 +20,19 @@ function Result() {
       </Link>
       <div className="halfBackground"></div>
       <div className="trf">
-        <img src={require("./background.png")} alt="background" /> <br />
-        {score !== null ? `Your score is: ${score}` : "No score available"}
+        {score < 6 ? (
+          <img src={require("../assets/tryagain.png")} alt="TryAgainEmoji" />
+        ) : (
+          <img src={require("../assets/trophy.png")} alt="Trophy" />
+        )}
+        <br />
       </div>
+      <div className="resultScore">
+        {score !== null ? `${score}/10` : "No score available"}
+        <br />
+        {score < 6 ? `Try again to Score Better` : `Congratulation you passed`}
+      </div>
+
       <div className="resultButtonContainer">
         <Link to="/quiz">
           <button className="button">Next Attempt</button>
