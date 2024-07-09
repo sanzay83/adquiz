@@ -8,11 +8,11 @@ function Home() {
       <div className="homeHeader">Welcome to American Dream Quiz</div>
 
       <div className="homeButtonContainer">
-        <Link to="/quiz">
-          <button className="button">Start</button>
+        <Link to="/study">
+          <button className="button">Study Material</button>
         </Link>
         <Link to="/quiz">
-          <button className="button">Start</button>
+          <button className="button">Start Quiz</button>
         </Link>
         <Link to="/progress">
           <button className="button">Progress</button>

@@ -7,6 +7,10 @@ import Quiz from "./components/Quiz";
 import Progress from "./components/Progress";
 import Result from "./components/Result";
 import Review from "./components/Review";
+import Study from "./components/Study";
+import QuizStudy from "./components/QuizStudy.js";
+import Writing from "./components/Writing";
+import Reading from "./components/Reading";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -24,6 +28,10 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
+    path: "/study",
+    element: <Study />,
+  },
+  {
     path: "/quiz",
     element: <Quiz />,
   },
@@ -38,6 +46,18 @@ const router = createBrowserRouter([
   {
     path: "/review",
     element: <Review />,
+  },
+  {
+    path: "/quizStudy",
+    element: <QuizStudy />,
+  },
+  {
+    path: "/writing",
+    element: <Writing />,
+  },
+  {
+    path: "/reading",
+    element: <Reading />,
   },
 ]);
 

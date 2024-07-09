@@ -4,7 +4,7 @@ html,
   margin: 0;
   height: 100%;
   font-family: "Arial", sans-serif;
-  background: linear-gradient(135deg, #ff4b5c, #1e90ff);
+  background: rgb(78, 65, 65);
 }
 
 .App {

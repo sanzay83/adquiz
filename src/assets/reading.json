@@ -1,0 +1,58 @@
+{
+  "PEOPLE": ["Abraham Lincoln", "George Washington"],
+  "CIVICS": [
+    "American flag",
+    "Bill of Rights",
+    "capital",
+    "citizen",
+    "city",
+    "Congress",
+    "country",
+    "Father of Our Country",
+    "government",
+    "President",
+    "right",
+    "Senators",
+    "state/states",
+    "White House"
+  ],
+  "PLACES": ["America", "United States", "U.S."],
+  "HOLIDAYS": [
+    "Presidents’ Day",
+    "Memorial Day",
+    "Flag Day",
+    "Independence Day",
+    "Labor Day",
+    "Columbus Day",
+    "Thanksgiving"
+  ],
+  "QUESTION WORDS": ["How", "What", "When", "Where", "Who", "Why"],
+  "VERBS": [
+    "can",
+    "come",
+    "do/does",
+    "elects",
+    "have/has",
+    "is/are/was/be",
+    "lives/lived",
+    "meet",
+    "name",
+    "pay",
+    "vote",
+    "want"
+  ],
+  "OTHER (FUNCTION)": ["a", "for", "here", "in", "of", "on", "the", "to", "we"],
+  "OTHER (CONTENT)": [
+    "colors",
+    "dollar bill",
+    "first",
+    "largest",
+    "many",
+    "most",
+    "north",
+    "one",
+    "people",
+    "second",
+    "south"
+  ]
+}
