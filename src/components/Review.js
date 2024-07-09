@@ -26,10 +26,11 @@ function Review() {
       <Link className="exit" to="/">
         X
       </Link>
-      <div className="halfBackground"></div>
+
       <div className="review-container">
         {selectedQuestions.map((data) => (
           <div key={data.id}>
+            <br />
             <div className="question-text">{data.question}</div>
             {data.options.map((option, index) => {
               const isCorrect = option === data.correct;

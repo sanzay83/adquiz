@@ -4,6 +4,7 @@ html,
   margin: 0;
   height: 100%;
   font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #ff4b5c, #1e90ff);
 }
 
 .App {
@@ -13,24 +14,6 @@ html,
   background-position: center;
   height: 100vh;
   color: white;
-}
-
-.button {
-  background: rgba(255, 0, 0, 0.35);
-  border: 1px solid rgba(255, 0, 0, 0.35);
-  width: 160px;
-  border-radius: 5px;
-  color: white;
-  font-size: 1.2rem;
-  padding: 10px 20px;
-  margin: 10px;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.3s;
-}
-
-.button:hover {
-  background: rgba(255, 255, 255, 0.4);
-  transform: scale(1.05);
 }
 
 /* QUIZ PAGINATION */

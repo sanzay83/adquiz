@@ -80,7 +80,6 @@ function Quiz() {
           </button>
         ))}
       </div>
-      <br /> <br />
       <div className="quiz-container">
         {currentQuestions.map((data) => (
           <div key={data.id}>
