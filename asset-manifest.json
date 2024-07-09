@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/adquiz/static/css/main.5fcb86bb.css",
-    "main.js": "/adquiz/static/js/main.fe466b9a.js",
+    "main.css": "/adquiz/static/css/main.7712843d.css",
+    "main.js": "/adquiz/static/js/main.5853cbc4.js",
     "static/media/background.png": "/adquiz/static/media/background.9615965e2c9cf0772297.png",
     "static/media/tryagain.png": "/adquiz/static/media/tryagain.8713a0df72812ca1c7fc.png",
     "static/media/trophy.png": "/adquiz/static/media/trophy.985ece1a37290b5962be.png",
     "index.html": "/adquiz/index.html",
-    "main.5fcb86bb.css.map": "/adquiz/static/css/main.5fcb86bb.css.map",
-    "main.fe466b9a.js.map": "/adquiz/static/js/main.fe466b9a.js.map"
+    "main.7712843d.css.map": "/adquiz/static/css/main.7712843d.css.map",
+    "main.5853cbc4.js.map": "/adquiz/static/js/main.5853cbc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fcb86bb.css",
-    "static/js/main.fe466b9a.js"
+    "static/css/main.7712843d.css",
+    "static/js/main.5853cbc4.js"
   ]
 }
