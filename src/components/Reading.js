@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "../assets/reading.json";
-import "./styles/Reading.css";
+import "./styles/StudyMaterial.css";
 import { Link } from "react-router-dom";
 
 function Reading() {
@@ -30,11 +30,7 @@ function Reading() {
             {openDropdowns[key] && (
               <ul className="dropdown-menu">
                 {data[key].map((item, index) => (
-                  <li key={index}>
-                    <a href={`#${item.replace(/\s+/g, "").toLowerCase()}`}>
-                      {item}
-                    </a>
-                  </li>
+                  <li key={index}>{item}</li>
                 ))}
               </ul>
             )}

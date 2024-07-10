@@ -22,7 +22,7 @@ function Progress() {
           pastAttempts.map((attempt, index) => (
             <div key={index} className="attempt">
               <p>Attempt {index + 1}:</p>
-              <p>Score: {attempt.score}</p>
+              <p>Score: {attempt.score} / 10</p>
               <p>Date: {attempt.date}</p>
             </div>
           ))
