@@ -14,36 +14,38 @@ function Result() {
   }, []);
 
   return (
-    <>
-      <Link className="exit" to="/">
-        <div className="header">
-          <button className="close-button">✖</button>
+    <div className="app">
+      <div className="resultContainer">
+        <Link className="exit" to="/">
+          <div className="header">
+            <button className="close-button">✖</button>
+          </div>
+        </Link>
+        <div className="halfBackground"></div>
+        <div className="trf">
+          {score < 6 ? (
+            <img src={require("../assets/tryagain.png")} alt="TryAgainEmoji" />
+          ) : (
+            <img src={require("../assets/trophy.png")} alt="Trophy" />
+          )}
+          <br />
         </div>
-      </Link>
-      <div className="halfBackground"></div>
-      <div className="trf">
-        {score < 6 ? (
-          <img src={require("../assets/tryagain.png")} alt="TryAgainEmoji" />
-        ) : (
-          <img src={require("../assets/trophy.png")} alt="Trophy" />
-        )}
-        <br />
-      </div>
-      <div className="resultScore">
-        {score !== null ? `${score}/10` : "No score available"}
-        <br />
-        {score < 6 ? `Try again to Score Better` : `Congratulation you passed`}
-      </div>
+        <div className="resultScore">
+          {score !== null ? `${score}/10` : "No score available"}
+          <br />
+          {score < 6
+            ? `Try again to Score Better`
+            : `Congratulation you passed`}
+        </div>
 
-      <div className="resultButtonContainer">
         <Link to="/quiz">
-          <button className="button">Next Attempt</button>
+          <button className="main-button">Next Attempt</button>
         </Link>
         <Link to="/review">
-          <button className="button">Review</button>
+          <button className="main-button">Review</button>
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

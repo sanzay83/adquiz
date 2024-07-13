@@ -64,45 +64,45 @@ function Quiz() {
   const totalPages = Math.ceil(selectedQuestions.length / questionsPerPage);
 
   return (
-    <>
-      <Link className="exit" to="/">
-        <div className="header">
-          <button className="close-button">✖</button>
-        </div>
-      </Link>
-      <div className="halfBackgroundQuiz"></div>
-      <div className="pagination">
-        {Array.from({ length: totalPages }, (_, index) => (
-          <button
-            key={index + 1}
-            className={currentPage === index + 1 ? "active" : ""}
-            onClick={() => paginate(index + 1)}
-          >
-            {index + 1}
-          </button>
-        ))}
-      </div>
-      <div className="quiz-container">
-        {currentQuestions.map((data) => (
-          <div key={data.id}>
-            <div className="question-text">{data.question}</div>
-            {data.options.map((option, index) => (
-              <div key={index} className="option">
-                <button
-                  className={
-                    selectedAnswers[data.id] === option ? "selected" : ""
-                  }
-                  onClick={() => handleOptionChange(data.id, option)}
-                >
-                  {option}
-                </button>
-              </div>
-            ))}
+    <div className="app">
+      <div className="container">
+        <Link className="exit" to="/">
+          <div className="header">
+            <button className="close-button">✖</button>
           </div>
-        ))}
-      </div>
-      <div className="nextPrevButton">
+        </Link>
+        <div className="pagination">
+          {Array.from({ length: totalPages }, (_, index) => (
+            <button
+              key={index + 1}
+              className={currentPage === index + 1 ? "active" : ""}
+              onClick={() => paginate(index + 1)}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+        <div className="quiz-container">
+          {currentQuestions.map((data) => (
+            <div key={data.id}>
+              <div className="question-text">{data.question}</div>
+              {data.options.map((option, index) => (
+                <div key={index} className="option">
+                  <button
+                    className={
+                      selectedAnswers[data.id] === option ? "selected" : ""
+                    }
+                    onClick={() => handleOptionChange(data.id, option)}
+                  >
+                    {option}
+                  </button>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
         <button
+          className="main-button"
           onClick={() => paginate(currentPage - 1)}
           disabled={currentPage === 1}
         >
@@ -110,12 +110,19 @@ function Quiz() {
         </button>
 
         {currentPage < totalPages ? (
-          <button onClick={() => paginate(currentPage + 1)}>Next</button>
+          <button
+            className="main-button"
+            onClick={() => paginate(currentPage + 1)}
+          >
+            Next
+          </button>
         ) : (
-          <button onClick={handleSubmit}>Submit</button>
+          <button className="main-button" onClick={handleSubmit}>
+            Submit
+          </button>
         )}
       </div>
-    </>
+    </div>
   );
 }
 

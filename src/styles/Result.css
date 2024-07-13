@@ -1,3 +1,11 @@
+.resultContainer {
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  border: 1px solid white;
+  height: 100vh;
+}
+
 .halfBackground {
   text-align: center;
   background-image: url("../assets/background.png");
@@ -28,22 +36,5 @@
   margin-right: auto;
   text-align: center;
   font-size: 30px;
-}
-
-.resultButtonContainer {
-  margin-top: 30%;
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-}
-
-.resultButtonContainer button {
-  background-color: rgb(179, 25, 66);
-  border-radius: 5px;
-  color: white;
-  border: none;
-  cursor: pointer;
-  padding: 15px 15px;
-  margin: 2px 0;
-  font-size: 1em;
+  margin-bottom: 120px;
 }

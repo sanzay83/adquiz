@@ -22,7 +22,7 @@ function Review() {
   }, []);
 
   return (
-    <>
+    <div className="app">
       <Link className="exit" to="/">
         <div className="header">
           <button className="close-button">✖</button>
@@ -31,7 +31,7 @@ function Review() {
 
       <div className="review-container">
         {selectedQuestions.map((data) => (
-          <div key={data.id}>
+          <div className="opt" key={data.id}>
             <br />
             <div className="question-text">{data.question}</div>
             {data.options.map((option, index) => {
@@ -57,7 +57,7 @@ function Review() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 
