@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "../assets/studyData.json";
-import "./styles/StudyMaterial.css";
+import "../styles/StudyMaterial.css";
 import { Link } from "react-router-dom";
 
 function QuizStudy() {
@@ -14,9 +14,11 @@ function QuizStudy() {
   };
 
   return (
-    <div>
+    <div className="app">
       <Link className="exit" to="/">
-        X
+        <div className="header">
+          <button className="close-button">✖</button>
+        </div>
       </Link>
       <div className="readingContainer">
         {Object.keys(data).map((key) => (

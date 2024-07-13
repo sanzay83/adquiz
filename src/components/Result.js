@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./styles/Result.css";
+import "../styles/Result.css";
 
 function Result() {
   const [score, setScore] = useState(null);
@@ -16,7 +16,9 @@ function Result() {
   return (
     <>
       <Link className="exit" to="/">
-        X
+        <div className="header">
+          <button className="close-button">✖</button>
+        </div>
       </Link>
       <div className="halfBackground"></div>
       <div className="trf">

@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Home.css";
+import "../styles/Home.css";
 import { Link, Outlet } from "react-router-dom";
 import AmericanFlag from "../assets/american-flag.png";
 function Home() {

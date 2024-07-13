@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import AllData from "../assets/data.json";
-import "./styles/Quiz.css";
+import "../styles/Quiz.css";
 
 function Quiz() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -66,7 +66,9 @@ function Quiz() {
   return (
     <>
       <Link className="exit" to="/">
-        X
+        <div className="header">
+          <button className="close-button">✖</button>
+        </div>
       </Link>
       <div className="halfBackgroundQuiz"></div>
       <div className="pagination">

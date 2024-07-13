@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./styles/Review.css";
+import "../styles/Review.css";
 
 function Review() {
   const [selectedQuestions, setSelectedQuestions] = useState([]);
@@ -24,7 +24,9 @@ function Review() {
   return (
     <>
       <Link className="exit" to="/">
-        X
+        <div className="header">
+          <button className="close-button">✖</button>
+        </div>
       </Link>
 
       <div className="review-container">
