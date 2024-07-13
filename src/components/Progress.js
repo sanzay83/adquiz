@@ -14,7 +14,7 @@ function Progress() {
 
   return (
     <div className="app">
-      <Link className="exit" to="/">
+      <Link className="exit" to="/adquiz">
         <div className="header">
           <button className="close-button">✖</button>
         </div>
