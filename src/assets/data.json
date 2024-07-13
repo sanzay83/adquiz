@@ -14,12 +14,12 @@
     "id": 2,
     "question": "What does the Constitution do?",
     "options": [
-      "Sets up the government",
+      "Sets up and defines the government",
       "Establishes taxes",
       "Controls the military",
       "Manages international trade"
     ],
-    "correct": "Sets up the government"
+    "correct": "Sets up and defines the government"
   },
   {
     "id": 3,
@@ -36,12 +36,12 @@
     "id": 4,
     "question": "What is an amendment?",
     "options": [
-      "A change (to the Constitution)",
+      "A change or an addition (to the Constitution)",
       "A law passed by Congress",
       "A decision by the President",
       "A Supreme Court ruling"
     ],
-    "correct": "A change (to the Constitution)"
+    "correct": "A change or an addition (to the Constitution)"
   },
   {
     "id": 5,
@@ -108,12 +108,12 @@
     "id": 11,
     "question": "What is the economic system in the United States?",
     "options": [
-      "Capitalist economy",
+      "Capitalist/market economy",
       "Socialist economy",
       "Communist economy",
       "Mixed economy"
     ],
-    "correct": "Capitalist economy"
+    "correct": "Capitalist/market economy"
   },
   {
     "id": 12,
@@ -128,7 +128,7 @@
   },
   {
     "id": 13,
-    "question": "Name one branch or part of the government.",
+    "question": "Which one is branch or part of the government.",
     "options": ["Congress", "The Military", "The Treasury", "The Media"],
     "correct": "Congress"
   },
@@ -158,12 +158,12 @@
     "id": 16,
     "question": "Who makes federal laws?",
     "options": [
-      "Congress",
+      "Congress, legislature, Senate and House (of Representatives)",
       "The President",
       "The Supreme Court",
       "State Governors"
     ],
-    "correct": "Congress"
+    "correct": "Congress, legislature, Senate and House (of Representatives)"
   },
   {
     "id": 17,
@@ -195,14 +195,14 @@
   },
   {
     "id": 20,
-    "question": "Who is one of your state’s U.S. Senators now?",
+    "question": "What does the Constitution do?",
     "options": [
-      "Answers will vary",
-      "Nancy Pelosi",
-      "John Roberts",
-      "Kamala Harris"
+      "protects basic rights of Americans",
+      "Establishes taxes",
+      "Controls the military",
+      "Manages international trade"
     ],
-    "correct": "Answers will vary"
+    "correct": "protects basic rights of Americans"
   },
   {
     "id": 21,
@@ -221,17 +221,7 @@
     "options": ["Two (2)", "Four (4)", "Six (6)", "Eight (8)"],
     "correct": "Two (2)"
   },
-  {
-    "id": 23,
-    "question": "Name your U.S. Representative.",
-    "options": [
-      "Answers will vary",
-      "Nancy Pelosi",
-      "John Roberts",
-      "Kamala Harris"
-    ],
-    "correct": "Answers will vary"
-  },
+
   {
     "id": 24,
     "question": "Who does a U.S. Senator represent?",
@@ -268,25 +258,15 @@
   },
   {
     "id": 28,
-    "question": "What is the name of the President of the United States now?",
-    "options": [
-      "Visit uscis.gov/citizenship/testupdates",
-      "Joe Biden",
-      "Donald Trump",
-      "Barack Obama"
-    ],
-    "correct": "Visit uscis.gov/citizenship/testupdates"
+    "question": "What is the name of the President of the United States now (up until 2024)?",
+    "options": ["Kamala Harris", "Joe Biden", "Donald Trump", "Barack Obama"],
+    "correct": "Joe Biden"
   },
   {
     "id": 29,
-    "question": "What is the name of the Vice President of the United States now?",
-    "options": [
-      "Visit uscis.gov/citizenship/testupdates",
-      "Kamala Harris",
-      "Mike Pence",
-      "Nancy Pelosi"
-    ],
-    "correct": "Visit uscis.gov/citizenship/testupdates"
+    "question": "What is the name of the Vice President of the United States now (up until 2024)?",
+    "options": ["Joe Biden", "Kamala Harris", "Mike Pence", "Nancy Pelosi"],
+    "correct": "Kamala Harris"
   },
   {
     "id": 30,
@@ -356,14 +336,14 @@
   },
   {
     "id": 36,
-    "question": "What are two Cabinet-level positions?",
+    "question": "Which one is Cabinet-level positions?",
     "options": [
-      "Secretary of Agriculture and Secretary of Commerce",
-      "Secretary of State and Secretary of Labor",
-      "Secretary of Treasury and Secretary of Defense",
-      "Secretary of Education and Secretary of Energy"
+      "Secretary of University",
+      "Secretary of State",
+      "Secretary of District",
+      "Secretary of Technology"
     ],
-    "correct": "Secretary of Agriculture and Secretary of Commerce"
+    "correct": "Secretary of State"
   },
   {
     "id": 37,
@@ -384,25 +364,20 @@
   },
   {
     "id": 39,
-    "question": "How many justices are on the Supreme Court?",
-    "options": [
-      "Visit uscis.gov/citizenship/testupdates",
-      "Nine (9)",
-      "Ten (10)",
-      "Twelve (12)"
-    ],
-    "correct": "Visit uscis.gov/citizenship/testupdates"
+    "question": "How many justices are on the Supreme Court (as of 2024)?",
+    "options": ["Eight (8)", "Nine (9)", "Ten (10)", "Twelve (12)"],
+    "correct": "Nine (9)"
   },
   {
     "id": 40,
-    "question": "Who is the Chief Justice of the United States now?",
+    "question": "Who is the Chief Justice of the United States now (as of 2024)?",
     "options": [
-      "Visit uscis.gov/citizenship/testupdates",
+      "Samuel A. Alito",
       "John Roberts",
       "Clarence Thomas",
       "Stephen Breyer"
     ],
-    "correct": "Visit uscis.gov/citizenship/testupdates"
+    "correct": "John Roberts"
   },
   {
     "id": 41,
@@ -430,18 +405,23 @@
     "id": 43,
     "question": "Who is the Governor of your state now?",
     "options": [
-      "Answers will vary",
+      "Answers will vary based on your interview location",
       "Gavin Newsom",
       "Andrew Cuomo",
       "Ron DeSantis"
     ],
-    "correct": "Answers will vary"
+    "correct": "Answers will vary based on your interview location"
   },
   {
     "id": 44,
     "question": "What is the capital of your state?",
-    "options": ["Answers will vary", "Sacramento", "Albany", "Tallahassee"],
-    "correct": "Answers will vary"
+    "options": [
+      "Answers will vary based on your interview location",
+      "Sacramento",
+      "Albany",
+      "Tallahassee"
+    ],
+    "correct": "Answers will vary based on your interview location"
   },
   {
     "id": 45,
@@ -457,24 +437,19 @@
   {
     "id": 46,
     "question": "What is the political party of the President now?",
-    "options": [
-      "Visit uscis.gov/citizenship/testupdates",
-      "Democratic",
-      "Republican",
-      "Independent"
-    ],
-    "correct": "Visit uscis.gov/citizenship/testupdates"
+    "options": ["Dependent", "Democratic", "Republican", "Independent"],
+    "correct": "Democratic"
   },
   {
     "id": 47,
     "question": "What is the name of the Speaker of the House of Representatives now?",
     "options": [
-      "Visit uscis.gov/citizenship/testupdates",
+      "Mike Johnson",
       "Nancy Pelosi",
       "Kevin McCarthy",
       "John Boehner"
     ],
-    "correct": "Visit uscis.gov/citizenship/testupdates"
+    "correct": "Mike Johnson"
   },
   {
     "id": 48,
@@ -489,14 +464,14 @@
   },
   {
     "id": 49,
-    "question": "What is one responsibility that is only for United States citizens?",
+    "question": "What are responsibility that is only for United States citizens?",
     "options": [
-      "Serve on a jury",
+      "Serve on a jury and vote in a federal election",
       "Obey the laws",
       "Pay taxes",
       "Attend school"
     ],
-    "correct": "Serve on a jury"
+    "correct": "Serve on a jury and vote in a federal election"
   },
   {
     "id": 50,
@@ -524,12 +499,12 @@
     "id": 52,
     "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
     "options": [
-      "The United States",
+      "The United States and the flag",
       "The President",
       "The Congress",
       "The Supreme Court"
     ],
-    "correct": "The United States"
+    "correct": "The United States and the flag"
   },
   {
     "id": 53,
@@ -574,12 +549,12 @@
     "id": 57,
     "question": "When must all men register for the Selective Service?",
     "options": [
-      "At age eighteen (18)",
+      "between eighteen (18) and twenty-six (26)",
       "At age sixteen (16)",
       "At age twenty-one (21)",
       "At age twenty-five (25)"
     ],
-    "correct": "At age eighteen (18)"
+    "correct": "between eighteen (18) and twenty-six (26)"
   },
   {
     "id": 58,
@@ -718,8 +693,8 @@
   {
     "id": 72,
     "question": "Name one war fought by the United States in the 1800s.",
-    "options": ["War of 1812", "World War I", "Korean War", "Vietnam War"],
-    "correct": "War of 1812"
+    "options": ["Civil War", "World War I", "Korean War", "Vietnam War"],
+    "correct": "Civil War"
   },
   {
     "id": 73,
@@ -863,7 +838,7 @@
   {
     "id": 87,
     "question": "Name one American Indian tribe in the United States.",
-    "options": ["Cherokee", "Maori", "Zulu", "Inuit"],
+    "options": ["Cherokee", "Maori", "Zulu", "Kaku"],
     "correct": "Cherokee"
   },
   {
@@ -950,7 +925,7 @@
     "question": "Why does the flag have 50 stars?",
     "options": [
       "Because there is one star for each state",
-      "Because there are 50 states",
+      "Because there are 50 highway",
       "Because of 50 presidents",
       "Because of 50 wars fought"
     ],
@@ -978,9 +953,9 @@
     "question": "Name two national U.S. holidays.",
     "options": [
       "New Year’s Day and Independence Day",
-      "Easter and Christmas",
-      "Halloween and Thanksgiving",
-      "Labor Day and Valentine's Day"
+      "Easter and Good Friday",
+      "Halloween and Halloween eve",
+      "Chocolate Day and Valentine's Day"
     ],
     "correct": "New Year’s Day and Independence Day"
   }
