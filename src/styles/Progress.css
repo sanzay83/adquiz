@@ -1,0 +1,28 @@
+.attempts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 400px;
+  margin-top: 1rem;
+}
+
+.attempt {
+  background-color: #fff;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.attempt:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.attempt p {
+  margin: 0.5rem 0;
+}

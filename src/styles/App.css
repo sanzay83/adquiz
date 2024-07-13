@@ -1,0 +1,75 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00203f;
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-button:hover {
+  color: #ff6347;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.main-button,
+.secondary-button {
+  background-color: #00a4e0;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.secondary-button {
+  background-color: transparent;
+  border: 1px solid #00a4e0;
+}
+
+.main-button:hover,
+.secondary-button:hover {
+  background-color: #0083b8;
+  transform: scale(1.05);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.footer span {
+  cursor: pointer;
+}

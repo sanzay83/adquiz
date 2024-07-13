@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./styles/Progress.css";
+import "../styles/Progress.css";
+import "../styles/App.css";
 
 function Progress() {
   const [pastAttempts, setPastAttempts] = useState([]);
@@ -12,11 +13,14 @@ function Progress() {
   }, []);
 
   return (
-    <div className="progress">
+    <div className="app">
       <Link className="exit" to="/">
-        X
+        <div className="header">
+          <button className="close-button">✖</button>
+        </div>
       </Link>
-      <h2>Progress</h2>
+
+      <h1>Progress</h1>
       <div className="attempts">
         {pastAttempts.length > 0 ? (
           pastAttempts.map((attempt, index) => (

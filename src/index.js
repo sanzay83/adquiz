@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import Home from "./components/Home";
+import App from "./components/App";
 import Quiz from "./components/Quiz";
 import Progress from "./components/Progress";
 import Result from "./components/Result";
@@ -18,14 +16,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-  },
-  {
-    path: "/adquiz",
-    element: <App />,
-  },
-  {
-    path: "/home",
-    element: <Home />,
   },
   {
     path: "/study",
