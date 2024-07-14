@@ -1,13 +1,19 @@
 .review-container {
+  margin-top: 30px;
   padding: 20px;
 }
 
 .opt {
   color: black;
   text-align: left;
-  padding: 5px;
+  padding: 5px 15px;
   display: block;
   background-color: #f9f9f9;
   box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
-  margin-top: 5px;
+  margin-top: 10px;
+  border-radius: 15px 1px;
+}
+
+.opt:hover {
+  background-color: antiquewhite;
 }

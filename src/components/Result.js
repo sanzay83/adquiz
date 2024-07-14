@@ -21,7 +21,7 @@ function Result() {
             <button className="close-button">✖</button>
           </div>
         </Link>
-        <div className="halfBackground"></div>
+        <div className="halfBackground" />
         <div className="trf">
           {score < 6 ? (
             <img src={require("../assets/tryagain.png")} alt="TryAgainEmoji" />
@@ -38,12 +38,14 @@ function Result() {
             : `Congratulation you passed`}
         </div>
 
-        <Link to="/quiz">
-          <button className="main-button">Next Attempt</button>
-        </Link>
-        <Link to="/review">
-          <button className="main-button">Review</button>
-        </Link>
+        <div className="buttonContainer">
+          <Link to="/quiz">
+            <button className="main-button">Next Attempt</button>
+          </Link>
+          <Link to="/review">
+            <button className="main-button">Review</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

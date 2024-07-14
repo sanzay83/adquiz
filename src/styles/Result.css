@@ -38,3 +38,12 @@
   font-size: 30px;
   margin-bottom: 120px;
 }
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonContainer span {
+  cursor: pointer;
+}

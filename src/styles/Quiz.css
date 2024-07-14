@@ -1,13 +1,17 @@
+.halfBackgroundQuiz {
+  background-image: url("../assets/statue.png");
+  background-size: cover;
+  height: 40vh;
+}
 .container {
   width: 100%;
   max-width: 500px;
   min-width: 200px;
   margin: 0 auto;
-  height: 100vh;
 }
 
 .pagination {
-  margin: 50px 20px 20px 20px;
+  margin: 20px;
 
   display: flex;
   justify-content: center;
@@ -86,4 +90,13 @@
 .option button:hover {
   background-color: rgb(10, 49, 97);
   transform: translateY(-2px);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonContainer span {
+  cursor: pointer;
 }

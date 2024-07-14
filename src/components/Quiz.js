@@ -79,6 +79,7 @@ function Quiz() {
             <button className="close-button">✖</button>
           </div>
         </Link>
+        <div className="halfBackgroundQuiz" />
         <div className="pagination">
           {Array.from({ length: totalPages }, (_, index) => (
             <button
@@ -109,26 +110,29 @@ function Quiz() {
             </div>
           ))}
         </div>
-        <button
-          className="main-button"
-          onClick={() => paginate(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
-          Prev
-        </button>
 
-        {currentPage < totalPages ? (
+        <div className="buttonContainer">
           <button
             className="main-button"
-            onClick={() => paginate(currentPage + 1)}
+            onClick={() => paginate(currentPage - 1)}
+            disabled={currentPage === 1}
           >
-            Next
+            Prev
           </button>
-        ) : (
-          <button className="main-button" onClick={handleSubmit}>
-            Submit
-          </button>
-        )}
+
+          {currentPage < totalPages ? (
+            <button
+              className="main-button"
+              onClick={() => paginate(currentPage + 1)}
+            >
+              Next
+            </button>
+          ) : (
+            <button className="main-button" onClick={handleSubmit}>
+              Submit
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );
