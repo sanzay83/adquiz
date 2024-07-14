@@ -11,10 +11,18 @@ function Quiz() {
   const questionsPerPage = 1;
 
   useEffect(() => {
-    // Randomly select 4 questions from AllData
-    const shuffledQuestions = [...AllData].sort(() => 0.5 - Math.random());
-    const selected = shuffledQuestions.slice(0, 10);
-    setSelectedQuestions(selected);
+    // Shuffle array function
+    const shuffleArray = (array) => array.sort(() => 0.5 - Math.random());
+
+    // Randomly select 10 questions from AllData and shuffle their options
+    const shuffledQuestions = shuffleArray([...AllData])
+      .slice(0, 10)
+      .map((question) => ({
+        ...question,
+        options: shuffleArray(question.options),
+      }));
+
+    setSelectedQuestions(shuffledQuestions);
   }, []);
 
   const indexOfLastQuestion = currentPage * questionsPerPage;
