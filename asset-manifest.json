@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/adquiz/static/css/main.1df982dd.css",
-    "main.js": "/adquiz/static/js/main.af17056f.js",
+    "main.css": "/adquiz/static/css/main.33dfcd6f.css",
+    "main.js": "/adquiz/static/js/main.264ab79b.js",
     "static/media/background.png": "/adquiz/static/media/background.9615965e2c9cf0772297.png",
+    "static/media/statue.png": "/adquiz/static/media/statue.aa0d9e2f021a3974fbcf.png",
     "static/media/study-background.png": "/adquiz/static/media/study-background.e9e3b2398d14cb09d0b2.png",
     "static/media/tryagain.png": "/adquiz/static/media/tryagain.8713a0df72812ca1c7fc.png",
     "static/media/trophy.png": "/adquiz/static/media/trophy.985ece1a37290b5962be.png",
     "static/media/american-flag.png": "/adquiz/static/media/american-flag.4bd2623bda7d908287eb.png",
     "index.html": "/adquiz/index.html",
-    "main.1df982dd.css.map": "/adquiz/static/css/main.1df982dd.css.map",
-    "main.af17056f.js.map": "/adquiz/static/js/main.af17056f.js.map"
+    "main.33dfcd6f.css.map": "/adquiz/static/css/main.33dfcd6f.css.map",
+    "main.264ab79b.js.map": "/adquiz/static/js/main.264ab79b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1df982dd.css",
-    "static/js/main.af17056f.js"
+    "static/css/main.33dfcd6f.css",
+    "static/js/main.264ab79b.js"
   ]
 }
