@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">adquiz</string>
-    <string name="title_activity_main">adquiz</string>
-    <string name="package_name">com.adquiz.app</string>
-    <string name="custom_url_scheme">com.adquiz.app</string>
-</resources>

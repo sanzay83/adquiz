@@ -9,6 +9,7 @@ import Study from "./components/Study";
 import QuizStudy from "./components/QuizStudy.js";
 import Writing from "./components/Writing";
 import Reading from "./components/Reading";
+import "./styles/index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
