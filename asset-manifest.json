@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/adquiz/static/css/main.a4f519b9.css",
-    "main.js": "/adquiz/static/js/main.ec51685b.js",
-    "static/media/statue.png": "/adquiz/static/media/statue.aa0d9e2f021a3974fbcf.png",
-    "static/media/study-background.png": "/adquiz/static/media/study-background.e9e3b2398d14cb09d0b2.png",
-    "static/media/tryagain.png": "/adquiz/static/media/tryagain.8713a0df72812ca1c7fc.png",
-    "static/media/trophy.png": "/adquiz/static/media/trophy.985ece1a37290b5962be.png",
-    "static/media/american-flag.png": "/adquiz/static/media/american-flag.4bd2623bda7d908287eb.png",
-    "static/media/background.jpg": "/adquiz/static/media/background.9c20daac8bc64279402d.jpg",
-    "index.html": "/adquiz/index.html",
-    "main.a4f519b9.css.map": "/adquiz/static/css/main.a4f519b9.css.map",
-    "main.ec51685b.js.map": "/adquiz/static/js/main.ec51685b.js.map"
+    "main.css": "/static/css/main.fff63af7.css",
+    "main.js": "/static/js/main.c4912f85.js",
+    "static/media/statue.png": "/static/media/statue.aa0d9e2f021a3974fbcf.png",
+    "static/media/study-background.png": "/static/media/study-background.e9e3b2398d14cb09d0b2.png",
+    "static/media/tryagain.png": "/static/media/tryagain.8713a0df72812ca1c7fc.png",
+    "static/media/trophy.png": "/static/media/trophy.985ece1a37290b5962be.png",
+    "static/media/american-flag.png": "/static/media/american-flag.4bd2623bda7d908287eb.png",
+    "static/media/background.jpg": "/static/media/background.9c20daac8bc64279402d.jpg",
+    "index.html": "/index.html",
+    "main.fff63af7.css.map": "/static/css/main.fff63af7.css.map",
+    "main.c4912f85.js.map": "/static/js/main.c4912f85.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4f519b9.css",
-    "static/js/main.ec51685b.js"
+    "static/css/main.fff63af7.css",
+    "static/js/main.c4912f85.js"
   ]
 }
