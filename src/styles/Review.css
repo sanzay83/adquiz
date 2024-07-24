@@ -7,6 +7,10 @@
   border-radius: 10px; /* Rounded corners */
 }
 
+.review-section {
+  margin-top: 40px;
+}
+
 .opt {
   color: black;
   text-align: left;

@@ -22,13 +22,13 @@ function Review() {
   }, []);
 
   return (
-    <div className="app">
-      <Link className="exit" to="/adquiz">
+    <div className="review-container">
+      <Link className="exit" to="/">
         <div className="header">
           <button className="close-button">✖</button>
         </div>
       </Link>
-      <div className="review-container">
+      <div className="review-section">
         {selectedQuestions.map((data) => (
           <div className="opt" key={data.id}>
             <br />

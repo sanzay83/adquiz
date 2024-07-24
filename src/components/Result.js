@@ -14,9 +14,9 @@ function Result() {
   }, []);
 
   return (
-    <div className="app">
-      <div className="resultContainer">
-        <Link className="exit" to="/adquiz">
+    <div className="resultContainer">
+      <div className="resultSection">
+        <Link className="exit" to="/">
           <div className="header">
             <button className="close-button">✖</button>
           </div>

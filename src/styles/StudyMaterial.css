@@ -1,3 +1,9 @@
+.glassify {
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Glassmorphic blur */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
 .menu-container {
   display: flex;
   flex-direction: column;
@@ -8,16 +14,13 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   padding: 20px;
   box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
-  backdrop-filter: blur(10px); /* Glassmorphic blur */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .menu-header {
   width: 230px;
   font-size: 24px;
-  margin-bottom: 20px;
   color: white;
+  margin-top: 40px;
   background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
   backdrop-filter: blur(5px); /* Glassmorphic blur */
   padding: 10px 20px;
@@ -36,7 +39,9 @@
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+.dropdown-container {
+  margin-top: 40px;
+}
 .dropdown {
   position: relative;
   display: flex;

@@ -2,17 +2,30 @@
   width: 100%;
   max-width: 500px;
   min-width: 200px;
-  border: 1px solid white;
   height: 100vh;
 }
 
 .halfBackground {
   text-align: center;
-  background-image: url("../assets/background.png");
+  background-image: url("../assets/background.jpg");
   background-size: cover;
+  border-radius: 20px;
   background-position: center;
   height: 40vh;
   color: white;
+}
+
+.resultSection {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  backdrop-filter: blur(15px); /* Blur effect */
+  margin: 20px;
+  max-width: 500px;
+  min-width: 200px;
+  transition: background-color 0.3s ease;
 }
 
 .trf {

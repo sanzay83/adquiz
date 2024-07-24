@@ -13,8 +13,8 @@ function Progress() {
   }, []);
 
   return (
-    <div className="app">
-      <Link className="exit" to="/adquiz">
+    <div className="progress-container">
+      <Link className="exit" to="/">
         <div className="header">
           <button className="close-button">✖</button>
         </div>
