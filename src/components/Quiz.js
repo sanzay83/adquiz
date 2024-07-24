@@ -74,24 +74,24 @@ function Quiz() {
   return (
     <div className="app">
       <div className="container">
-        <Link className="exit" to="/adquiz">
-          <div className="header">
-            <button className="close-button">✖</button>
-          </div>
-        </Link>
-        <div className="halfBackgroundQuiz" />
-        <div className="pagination">
-          {Array.from({ length: totalPages }, (_, index) => (
-            <button
-              key={index + 1}
-              className={currentPage === index + 1 ? "active" : ""}
-              onClick={() => paginate(index + 1)}
-            >
-              {index + 1}
-            </button>
-          ))}
-        </div>
         <div className="quiz-container">
+          <Link className="exit" to="/adquiz">
+            <div className="header">
+              <button className="close-button">✖</button>
+            </div>
+          </Link>
+          <div className="halfBackgroundQuiz" />
+          <div className="pagination">
+            {Array.from({ length: totalPages }, (_, index) => (
+              <button
+                key={index + 1}
+                className={currentPage === index + 1 ? "active" : ""}
+                onClick={() => paginate(index + 1)}
+              >
+                {index + 1}
+              </button>
+            ))}
+          </div>
           {currentQuestions.map((data) => (
             <div key={data.id}>
               <div className="question-text">{data.question}</div>
@@ -109,29 +109,28 @@ function Quiz() {
               ))}
             </div>
           ))}
-        </div>
-
-        <div className="buttonContainer">
-          <button
-            className="main-button"
-            onClick={() => paginate(currentPage - 1)}
-            disabled={currentPage === 1}
-          >
-            Prev
-          </button>
-
-          {currentPage < totalPages ? (
+          <div className="buttonContainer">
             <button
               className="main-button"
-              onClick={() => paginate(currentPage + 1)}
+              onClick={() => paginate(currentPage - 1)}
+              disabled={currentPage === 1}
             >
-              Next
+              Prev
             </button>
-          ) : (
-            <button className="main-button" onClick={handleSubmit}>
-              Submit
-            </button>
-          )}
+
+            {currentPage < totalPages ? (
+              <button
+                className="main-button"
+                onClick={() => paginate(currentPage + 1)}
+              >
+                Next
+              </button>
+            ) : (
+              <button className="main-button" onClick={handleSubmit}>
+                Submit
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </div>

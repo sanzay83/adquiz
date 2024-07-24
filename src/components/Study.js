@@ -4,7 +4,7 @@ import "../styles/StudyMaterial.css";
 
 function Study() {
   return (
-    <>
+    <div className="app">
       <Link className="exit" to="/adquiz">
         <div className="header">
           <button className="close-button">✖</button>
@@ -22,7 +22,7 @@ function Study() {
           <button className="main-button">Reading Vocabulary</button>
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

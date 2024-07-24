@@ -1,4 +1,8 @@
 .app {
+  background-image: url("../assets/study-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +44,7 @@ p {
 
 .main-button,
 .secondary-button {
-  background-color: #00a4e0;
+  background: rgba(0, 164, 224, 0.1); /* Adding transparency */
   border: none;
   border-radius: 25px;
   color: white;
@@ -49,16 +53,20 @@ p {
   margin: 0.5rem 0;
   cursor: pointer;
   outline: none;
+  backdrop-filter: blur(10px); /* Adding blur effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition */
 }
 
 .secondary-button {
-  background-color: transparent;
-  border: 1px solid #00a4e0;
+  background: rgba(0, 164, 224, 0.1);
+  border: 1px solid rgba(0, 164, 224, 0.5); /* Semi-transparent border */
 }
 
 .main-button:hover,
 .secondary-button:hover {
-  background-color: #0083b8;
+  background: rgba(0, 164, 224, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
 }
 

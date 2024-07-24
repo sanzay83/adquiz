@@ -1,8 +1,9 @@
 .halfBackgroundQuiz {
   background-image: url("../assets/statue.png");
   background-size: cover;
-  height: 40vh;
+  height: 25vh;
 }
+
 .container {
   width: 100%;
   max-width: 500px;
@@ -12,7 +13,6 @@
 
 .pagination {
   margin: 20px;
-
   display: flex;
   justify-content: center;
   gap: 5px;
@@ -20,7 +20,7 @@
 }
 
 .pagination button {
-  background-color: #00a4e0;
+  background: rgba(0, 164, 224, 0.1); /* Transparent background */
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -33,14 +33,16 @@
   align-items: center;
   justify-content: center;
   border: none;
+  backdrop-filter: blur(10px); /* Blur effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .pagination .active {
-  background-color: rgb(10, 49, 97);
+  background-color: rgba(10, 49, 97, 0.7); /* Semi-transparent active color */
 }
 
 .pagination button:hover {
-  background-color: rgb(10, 49, 97);
+  background-color: rgba(10, 49, 97, 0.5); /* Semi-transparent hover color */
   transform: translateY(-2px);
 }
 
@@ -49,10 +51,16 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  backdrop-filter: blur(15px); /* Blur effect */
   margin: 20px;
   max-width: 500px;
   min-width: 200px;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-container:hover {
+  background: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
 }
 
 .question-text {
@@ -62,7 +70,8 @@
   margin-bottom: 20px;
   border: 2px solid #333;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background: rgba(249, 249, 249, 0.8); /* Semi-transparent background */
+  backdrop-filter: blur(5px); /* Blur effect */
 }
 
 .option {
@@ -72,7 +81,7 @@
 }
 
 .option button {
-  background-color: rgb(179, 25, 66);
+  background: rgba(179, 25, 66, 0.7); /* Semi-transparent background */
   width: 100%;
   padding: 15px;
   border-radius: 5px;
@@ -81,14 +90,15 @@
   cursor: pointer;
   font-size: 1em;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  backdrop-filter: blur(5px); /* Blur effect */
 }
 
 .option .selected {
-  background-color: rgb(10, 49, 97);
+  background-color: rgba(10, 49, 97, 0.7); /* Semi-transparent selected color */
 }
 
 .option button:hover {
-  background-color: rgb(10, 49, 97);
+  background-color: rgba(10, 49, 97, 0.5); /* Semi-transparent hover color */
   transform: translateY(-2px);
 }
 

@@ -28,7 +28,6 @@ function Review() {
           <button className="close-button">✖</button>
         </div>
       </Link>
-
       <div className="review-container">
         {selectedQuestions.map((data) => (
           <div className="opt" key={data.id}>

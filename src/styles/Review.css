@@ -1,6 +1,10 @@
 .review-container {
-  margin-top: 30px;
+  margin-top: 50px;
   padding: 20px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px; /* Rounded corners */
 }
 
 .opt {
@@ -8,12 +12,15 @@
   text-align: left;
   padding: 5px 15px;
   display: block;
-  background-color: #f9f9f9;
+  background: rgba(249, 249, 249, 0.5); /* Semi-transparent background */
+  backdrop-filter: blur(5px); /* Blur effect */
   box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
   margin-top: 10px;
-  border-radius: 15px 1px;
+  border-radius: 15px 1px; /* Custom border-radius */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .opt:hover {
-  background-color: antiquewhite;
+  background: rgba(255, 228, 196, 0.5); /* Semi-transparent antiquewhite */
+  transform: translateY(-2px); /* Slight lift on hover */
 }

@@ -8,19 +8,20 @@
 }
 
 .attempt {
-  background-color: #fff;
-  color: black;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  color: rgb(255, 255, 255);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   padding: 1rem;
   margin: 0.5rem 0;
   width: 100%;
   transition: transform 0.3s, box-shadow 0.3s;
+  backdrop-filter: blur(10px); /* Blur effect */
 }
 
 .attempt:hover {
   transform: scale(1.02);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
 .attempt p {
