@@ -21,7 +21,11 @@ function Result() {
             <button className="close-button">✖</button>
           </div>
         </Link>
-        <div className="halfBackground" />
+        <img
+          src={require("../assets/background.jpg")}
+          style={{ maxWidth: "100%", borderRadius: "30px" }}
+          alt="flagWithImageOfPlaces"
+        />
         <div className="trf">
           {score < 6 ? (
             <img src={require("../assets/tryagain.png")} alt="TryAgainEmoji" />
