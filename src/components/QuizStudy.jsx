@@ -34,7 +34,7 @@ function QuizStudy() {
 
   return (
     <div className="readingContainer">
-      <Link className="exit" to="/adquiz">
+      <Link className="exit" to="/">
         <div className="header">
           <button className="close-button">✖</button>
         </div>

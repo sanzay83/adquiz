@@ -26,7 +26,7 @@ function Study() {
   return (
     <div className="menu-container">
       <div className="glassify">
-        <Link className="exit" to="/adquiz">
+        <Link className="exit" to="/">
           <div className="header">
             <button className="close-button">✖</button>
           </div>

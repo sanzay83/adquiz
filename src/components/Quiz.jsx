@@ -74,7 +74,7 @@ function Quiz() {
   return (
     <div className="container">
       <div className="quiz-container">
-        <Link className="exit" to="/adquiz">
+        <Link className="exit" to="/">
           <div className="header">
             <button className="close-button">✖</button>
           </div>

@@ -23,7 +23,7 @@ function Review() {
 
   return (
     <div className="review-container">
-      <Link className="exit" to="/adquiz">
+      <Link className="exit" to="/">
         <div className="header">
           <button className="close-button">✖</button>
         </div>
