@@ -11,8 +11,14 @@ function Home() {
         <Link to="/study">
           <button className="main-button">Study Material</button>
         </Link>
+        <Link to="/flashcard">
+          <button className="main-button">Flashcards</button>
+        </Link>
         <Link to="/quiz">
           <button className="secondary-button">Start Quiz</button>
+        </Link>
+        <Link to="/quizmarathon">
+          <button className="secondary-button">Quiz Marathon</button>
         </Link>
         <Link to="/progress">
           <button className="secondary-button">Progress</button>
