@@ -11,18 +11,35 @@ function Quiz() {
   const questionsPerPage = 1;
 
   useEffect(() => {
+    // Retrieve correctQuestionIds from localStorage or initialize it as an empty array
+    let correctQuestionIds =
+      JSON.parse(localStorage.getItem("correctQuestionIds")) || [];
+
     // Shuffle array function
     const shuffleArray = (array) => array.sort(() => 0.5 - Math.random());
 
-    // Randomly select 10 questions from AllData and shuffle their options
-    const shuffledQuestions = shuffleArray([...AllData])
-      .slice(0, 10)
-      .map((question) => ({
-        ...question,
-        options: shuffleArray(question.options),
-      }));
+    // Filter out questions already answered correctly
+    const availableQuestions = AllData.filter(
+      (question) => !correctQuestionIds.includes(question.id)
+    );
 
-    setSelectedQuestions(shuffledQuestions);
+    // Keep selecting random questions until we have at least 10
+    let selectedQuestions = [];
+    while (selectedQuestions.length < 10) {
+      const remainingQuestions = shuffleArray([...availableQuestions]);
+
+      for (const question of remainingQuestions) {
+        if (!selectedQuestions.find((q) => q.id === question.id)) {
+          selectedQuestions.push({
+            ...question,
+            options: shuffleArray(question.options),
+          });
+        }
+        if (selectedQuestions.length === 10) break;
+      }
+    }
+
+    setSelectedQuestions(selectedQuestions);
   }, []);
 
   const indexOfLastQuestion = currentPage * questionsPerPage;
@@ -42,11 +59,38 @@ function Quiz() {
   };
 
   const handleSubmit = () => {
-    const score = selectedQuestions.reduce((acc, question) => {
-      return acc + (selectedAnswers[question.id] === question.correct ? 1 : 0);
-    }, 0);
+    // Retrieve the existing correctQuestionIds from localStorage or initialize as an empty array
+    let correctQuestionIds =
+      JSON.parse(localStorage.getItem("correctQuestionIds")) || [];
 
-    // Store the score, selected answers, and questions in localStorage
+    // Find IDs of correctly answered questions
+    const newCorrectIds = selectedQuestions.reduce((acc, question) => {
+      if (selectedAnswers[question.id] === question.correct) {
+        acc.push(question.id);
+      }
+      return acc;
+    }, []);
+
+    // Merge new correct IDs with the existing ones, avoiding duplicates
+    correctQuestionIds = Array.from(
+      new Set([...correctQuestionIds, ...newCorrectIds])
+    );
+
+    // If the number of correct IDs reaches or exceeds 90, reset the list
+    if (correctQuestionIds.length >= 90) {
+      correctQuestionIds = [];
+    }
+
+    // Save the updated correctQuestionIds to localStorage
+    localStorage.setItem(
+      "correctQuestionIds",
+      JSON.stringify(correctQuestionIds)
+    );
+
+    // Calculate the score
+    const score = newCorrectIds.length;
+
+    // Store the score, selected answers, and selected questions in localStorage
     localStorage.setItem("quizScore", score);
     localStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
     localStorage.setItem(
