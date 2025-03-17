@@ -36,12 +36,12 @@
     "id": 4,
     "question": "What is an amendment?",
     "options": [
-      "A change or an addition (to the Constitution)",
+      "A change or an addition to the Constitution",
       "A law passed by Congress",
       "A decision by the President",
       "A Supreme Court ruling"
     ],
-    "correct": "A change or an addition (to the Constitution)"
+    "correct": "A change or an addition to the Constitution"
   },
   {
     "id": 5,
@@ -75,12 +75,12 @@
     "id": 8,
     "question": "What did the Declaration of Independence do?",
     "options": [
-      "Announced our independence (from Great Britain)",
+      "Announced our independence from Great Britain",
       "Established the Constitution",
       "Ended the Civil War",
       "Created the Bill of Rights"
     ],
-    "correct": "Announced our independence (from Great Britain)"
+    "correct": "Announced our independence from Great Britain"
   },
   {
     "id": 9,
@@ -108,12 +108,12 @@
     "id": 11,
     "question": "What is the economic system in the United States?",
     "options": [
-      "Capitalist/market economy",
+      "Capitalist economy",
       "Socialist economy",
       "Communist economy",
       "Mixed economy"
     ],
-    "correct": "Capitalist/market economy"
+    "correct": "Capitalist economy"
   },
   {
     "id": 12,
@@ -158,23 +158,23 @@
     "id": 16,
     "question": "Who makes federal laws?",
     "options": [
-      "Congress, legislature, Senate and House (of Representatives)",
+      "Congress",
       "The President",
       "The Supreme Court",
       "State Governors"
     ],
-    "correct": "Congress, legislature, Senate and House (of Representatives)"
+    "correct": "Congress"
   },
   {
     "id": 17,
     "question": "What are the two parts of the U.S. Congress?",
     "options": [
-      "The Senate and House (of Representatives)",
+      "The Senate and House of Representatives",
       "The Senate and the Supreme Court",
       "The House and the Presidency",
       "The Senate and the Cabinet"
     ],
-    "correct": "The Senate and House (of Representatives)"
+    "correct": "The Senate and House of Representatives"
   },
   {
     "id": 18,
@@ -258,15 +258,15 @@
   },
   {
     "id": 28,
-    "question": "What is the name of the President of the United States now (up until 2024)?",
+    "question": "What is the name of the President of the United States now?",
     "options": ["Kamala Harris", "Joe Biden", "Donald Trump", "Barack Obama"],
-    "correct": "Joe Biden"
+    "correct": "Donald Trump"
   },
   {
     "id": 29,
-    "question": "What is the name of the Vice President of the United States now (up until 2024)?",
-    "options": ["Joe Biden", "Kamala Harris", "Mike Pence", "Nancy Pelosi"],
-    "correct": "Kamala Harris"
+    "question": "What is the name of the Vice President of the United States now?",
+    "options": ["JD Vance", "Kamala Harris", "Mike Pence", "Nancy Pelosi"],
+    "correct": "JD Vance"
   },
   {
     "id": 30,
@@ -370,7 +370,7 @@
   },
   {
     "id": 40,
-    "question": "Who is the Chief Justice of the United States now (as of 2024)?",
+    "question": "Who is the Chief Justice of the United States now?",
     "options": [
       "Samuel A. Alito",
       "John Roberts",
@@ -403,25 +403,25 @@
   },
   {
     "id": 43,
-    "question": "Who is the Governor of your state now?",
+    "question": "What does the judicial branch do?",
     "options": [
-      "Answers will vary based on your interview location",
-      "Gavin Newsom",
-      "Andrew Cuomo",
-      "Ron DeSantis"
+      "Resolves Disputes",
+      "Makes laws",
+      "Enforces laws",
+      "Writes laws"
     ],
-    "correct": "Answers will vary based on your interview location"
+    "correct": "Resolves Disputes"
   },
   {
     "id": 44,
-    "question": "What is the capital of your state?",
+    "question": "Which one is Cabinet-level positions?",
     "options": [
-      "Answers will vary based on your interview location",
-      "Sacramento",
-      "Albany",
-      "Tallahassee"
+      "Secretary of University",
+      "Secretary of Education",
+      "Secretary of District",
+      "Secretary of Technology"
     ],
-    "correct": "Answers will vary based on your interview location"
+    "correct": "Secretary of Education"
   },
   {
     "id": 45,
@@ -438,7 +438,7 @@
     "id": 46,
     "question": "What is the political party of the President now?",
     "options": ["Dependent", "Democratic", "Republican", "Independent"],
-    "correct": "Democratic"
+    "correct": "Republican"
   },
   {
     "id": 47,
@@ -806,12 +806,12 @@
     "id": 84,
     "question": "What movement tried to end racial discrimination?",
     "options": [
-      "Civil rights (movement)",
+      "Civil rights movement",
       "Labor movement",
       "Environmental movement",
       "Women’s suffrage"
     ],
-    "correct": "Civil rights (movement)"
+    "correct": "Civil rights movement"
   },
   {
     "id": 85,
