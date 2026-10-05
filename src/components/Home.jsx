@@ -27,7 +27,7 @@ const modes = [
     to: "/quizmarathon",
     icon: <IconFlame />,
     title: "Quiz Marathon",
-    desc: "All 99 questions back-to-back with instant feedback. Build a streak.",
+    desc: `All ${AllData.length} questions back-to-back with instant feedback. Build a streak.`,
     accent: "gold",
     cta: "Go marathon",
   },
@@ -35,7 +35,7 @@ const modes = [
     to: "/flashcard",
     icon: <IconCards />,
     title: "Flashcards",
-    desc: "Flip through all 100 civics Q&As. Mark what you know, drill the rest.",
+    desc: "Flip through all 128 civics Q&As. Mark what you know, drill the rest.",
     accent: "navy",
     cta: "Flip cards",
   },
@@ -175,7 +175,7 @@ function Home() {
 
       <footer className="home-foot">
         <p>
-          Based on the 100 official USCIS civics questions · Your progress is
+          Based on the 128 official USCIS civics questions (2025 test) · Your progress is
           saved on this device
         </p>
       </footer>

@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "question": "What is the form of government of the United States?",
+    "options": [
+      "Republic",
+      "Monarchy",
+      "Dictatorship",
+      "Oligarchy"
+    ],
+    "correct": "Republic"
+  },
+  {
+    "id": 2,
     "question": "What is the supreme law of the land?",
     "options": [
       "The President",
@@ -11,8 +22,8 @@
     "correct": "The Constitution"
   },
   {
-    "id": 2,
-    "question": "What does the Constitution do?",
+    "id": 3,
+    "question": "Name one thing the U.S. Constitution does.",
     "options": [
       "Sets up and defines the government",
       "Establishes taxes",
@@ -22,91 +33,96 @@
     "correct": "Sets up and defines the government"
   },
   {
-    "id": 3,
-    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
-    "options": [
-      "We the People",
-      "We the Citizens",
-      "We the Government",
-      "We the Country"
-    ],
-    "correct": "We the People"
-  },
-  {
     "id": 4,
-    "question": "What is an amendment?",
+    "question": "The U.S. Constitution starts with the words “We the People.” What does “We the People” mean?",
     "options": [
-      "A change or an addition to the Constitution",
-      "A law passed by Congress",
-      "A decision by the President",
-      "A Supreme Court ruling"
+      "Self-government",
+      "Rule by a king",
+      "Military rule",
+      "Rule by the wealthy"
     ],
-    "correct": "A change or an addition to the Constitution"
+    "correct": "Self-government"
   },
   {
     "id": 5,
-    "question": "What do we call the first ten amendments to the Constitution?",
+    "question": "How are changes made to the U.S. Constitution?",
     "options": [
-      "The Bill of Rights",
-      "The Preamble",
-      "The Articles of Confederation",
-      "The Federalist Papers"
+      "Through amendments",
+      "By presidential order",
+      "By Supreme Court ruling alone",
+      "By a vote of state governors"
     ],
-    "correct": "The Bill of Rights"
+    "correct": "Through amendments"
   },
   {
     "id": 6,
-    "question": "What is one right or freedom from the First Amendment?",
-    "options": ["Speech", "Right to bear arms", "Privacy", "Equal protection"],
-    "correct": "Speech"
+    "question": "What does the Bill of Rights protect?",
+    "options": [
+      "The basic rights of Americans",
+      "The powers of the president",
+      "The structure of Congress",
+      "The federal budget"
+    ],
+    "correct": "The basic rights of Americans"
   },
   {
     "id": 7,
-    "question": "How many amendments does the Constitution have?",
+    "question": "How many amendments does the U.S. Constitution have?",
     "options": [
-      "Twenty-seven (27)",
-      "Twenty-five (25)",
-      "Thirty (30)",
-      "Twenty-four (24)"
+      "27",
+      "10",
+      "13",
+      "50"
     ],
-    "correct": "Twenty-seven (27)"
+    "correct": "27"
   },
   {
     "id": 8,
-    "question": "What did the Declaration of Independence do?",
+    "question": "Why is the Declaration of Independence important?",
     "options": [
-      "Announced our independence from Great Britain",
-      "Established the Constitution",
-      "Ended the Civil War",
-      "Created the Bill of Rights"
+      "It declared America free from British control",
+      "It ended the Civil War",
+      "It created the Supreme Court",
+      "It established the federal budget"
     ],
-    "correct": "Announced our independence from Great Britain"
+    "correct": "It declared America free from British control"
   },
   {
     "id": 9,
-    "question": "What are two rights in the Declaration of Independence?",
+    "question": "What founding document said the American colonies were free from Britain?",
     "options": [
-      "Life and Liberty",
-      "Privacy and Speech",
-      "Trial by jury and Religion",
-      "Assembly and Petition"
+      "Declaration of Independence",
+      "The Constitution",
+      "The Bill of Rights",
+      "The Articles of Confederation"
     ],
-    "correct": "Life and Liberty"
+    "correct": "Declaration of Independence"
   },
   {
     "id": 10,
-    "question": "What is freedom of religion?",
+    "question": "Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
     "options": [
-      "You can practice any religion, or not practice a religion",
-      "You must practice a religion",
-      "Only certain religions are allowed",
-      "Religious practice is prohibited"
+      "Equality and liberty",
+      "Taxation and trade",
+      "Monarchy and empire",
+      "War and conquest"
     ],
-    "correct": "You can practice any religion, or not practice a religion"
+    "correct": "Equality and liberty"
   },
   {
     "id": 11,
-    "question": "What is the economic system in the United States?",
+    "question": "The words “Life, Liberty, and the pursuit of Happiness” are in what founding document?",
+    "options": [
+      "Declaration of Independence",
+      "The Constitution",
+      "The Bill of Rights",
+      "The Federalist Papers"
+    ],
+    "correct": "Declaration of Independence"
+  },
+  {
+    "id": 12,
+    "question": "What is the economic system of the United States?",
     "options": [
       "Capitalist economy",
       "Socialist economy",
@@ -116,8 +132,8 @@
     "correct": "Capitalist economy"
   },
   {
-    "id": 12,
-    "question": "What is the 'rule of law'?",
+    "id": 13,
+    "question": "What is the rule of law?",
     "options": [
       "Everyone must follow the law",
       "The President is above the law",
@@ -127,46 +143,62 @@
     "correct": "Everyone must follow the law"
   },
   {
-    "id": 13,
-    "question": "Which one is branch or part of the government.",
-    "options": ["Congress", "The Military", "The Treasury", "The Media"],
-    "correct": "Congress"
-  },
-  {
     "id": 14,
-    "question": "What stops one branch of government from becoming too powerful?",
+    "question": "Many documents influenced the U.S. Constitution. Name one.",
     "options": [
-      "Checks and balances",
-      "Federalism",
-      "The President",
-      "The Supreme Court"
+      "The Declaration of Independence",
+      "The Louisiana Purchase treaty",
+      "The Gettysburg Address",
+      "The Monroe Doctrine"
     ],
-    "correct": "Checks and balances"
+    "correct": "The Declaration of Independence"
   },
   {
     "id": 15,
-    "question": "Who is in charge of the executive branch?",
+    "question": "There are three branches of government. Why?",
     "options": [
-      "The President",
-      "The Chief Justice",
-      "The Speaker of the House",
-      "The Vice President"
+      "So no one part becomes too powerful",
+      "To make laws pass faster",
+      "To reduce the number of judges",
+      "To give states more senators"
     ],
-    "correct": "The President"
+    "correct": "So no one part becomes too powerful"
   },
   {
     "id": 16,
-    "question": "Who makes federal laws?",
+    "question": "Name the three branches of government.",
+    "options": [
+      "Legislative, executive, and judicial",
+      "Federal, state, and local",
+      "Senate, House, and Cabinet",
+      "Military, courts, and Congress"
+    ],
+    "correct": "Legislative, executive, and judicial"
+  },
+  {
+    "id": 17,
+    "question": "The President of the United States is in charge of which branch of government?",
+    "options": [
+      "The executive branch",
+      "The legislative branch",
+      "The judicial branch",
+      "The state branch"
+    ],
+    "correct": "The executive branch"
+  },
+  {
+    "id": 18,
+    "question": "What part of the federal government writes laws?",
     "options": [
       "Congress",
       "The President",
       "The Supreme Court",
-      "State Governors"
+      "The Cabinet"
     ],
     "correct": "Congress"
   },
   {
-    "id": 17,
+    "id": 19,
     "question": "What are the two parts of the U.S. Congress?",
     "options": [
       "The Senate and House of Representatives",
@@ -177,8 +209,19 @@
     "correct": "The Senate and House of Representatives"
   },
   {
-    "id": 18,
-    "question": "How many U.S. Senators are there?",
+    "id": 20,
+    "question": "Name one power of the U.S. Congress.",
+    "options": [
+      "Writes laws",
+      "Commands the military",
+      "Appoints ambassadors on its own",
+      "Runs the federal courts"
+    ],
+    "correct": "Writes laws"
+  },
+  {
+    "id": 21,
+    "question": "How many U.S. senators are there?",
     "options": [
       "One hundred (100)",
       "Fifty (50)",
@@ -188,25 +231,19 @@
     "correct": "One hundred (100)"
   },
   {
-    "id": 19,
-    "question": "We elect a U.S. Senator for how many years?",
-    "options": ["Six (6)", "Two (2)", "Four (4)", "Eight (8)"],
-    "correct": "Six (6)"
-  },
-  {
-    "id": 20,
-    "question": "What does the Constitution do?",
+    "id": 22,
+    "question": "How long is a term for a U.S. senator?",
     "options": [
-      "protects basic rights of Americans",
-      "Establishes taxes",
-      "Controls the military",
-      "Manages international trade"
+      "6 years",
+      "2 years",
+      "4 years",
+      "8 years"
     ],
-    "correct": "protects basic rights of Americans"
+    "correct": "6 years"
   },
   {
-    "id": 21,
-    "question": "The House of Representatives has how many voting members?",
+    "id": 24,
+    "question": "How many voting members are in the House of Representatives?",
     "options": [
       "Four hundred thirty-five (435)",
       "One hundred (100)",
@@ -216,232 +253,51 @@
     "correct": "Four hundred thirty-five (435)"
   },
   {
-    "id": 22,
-    "question": "We elect a U.S. Representative for how many years?",
-    "options": ["Two (2)", "Four (4)", "Six (6)", "Eight (8)"],
-    "correct": "Two (2)"
-  },
-
-  {
-    "id": 24,
-    "question": "Who does a U.S. Senator represent?",
-    "options": [
-      "All people of the state",
-      "The President",
-      "The Supreme Court",
-      "State Governors"
-    ],
-    "correct": "All people of the state"
-  },
-  {
     "id": 25,
-    "question": "Why do some states have more Representatives than other states?",
+    "question": "How long is a term for a member of the House of Representatives?",
     "options": [
-      "Because of the state’s population",
-      "Because of the size of the state",
-      "Because of the state’s economy",
-      "Because of the state’s geography"
+      "Two (2)",
+      "Four (4)",
+      "Six (6)",
+      "Eight (8)"
     ],
-    "correct": "Because of the state’s population"
+    "correct": "Two (2)"
   },
   {
     "id": 26,
-    "question": "We elect a President for how many years?",
-    "options": ["Four (4)", "Two (2)", "Six (6)", "Eight (8)"],
-    "correct": "Four (4)"
+    "question": "Why do U.S. representatives serve shorter terms than U.S. senators?",
+    "options": [
+      "To follow public opinion more closely",
+      "Because they do less work",
+      "Because the states requested it",
+      "To save the cost of elections"
+    ],
+    "correct": "To follow public opinion more closely"
   },
   {
     "id": 27,
-    "question": "In what month do we vote for President?",
-    "options": ["November", "January", "July", "March"],
-    "correct": "November"
+    "question": "How many senators does each state have?",
+    "options": [
+      "2",
+      "1",
+      "4",
+      "It depends on the state's population"
+    ],
+    "correct": "2"
   },
   {
     "id": 28,
-    "question": "What is the name of the President of the United States now?",
-    "options": ["Kamala Harris", "Joe Biden", "Donald Trump", "Barack Obama"],
-    "correct": "Donald Trump"
-  },
-  {
-    "id": 29,
-    "question": "What is the name of the Vice President of the United States now?",
-    "options": ["JD Vance", "Kamala Harris", "Mike Pence", "Nancy Pelosi"],
-    "correct": "JD Vance"
+    "question": "Why does each state have two senators?",
+    "options": [
+      "Equal representation for small states",
+      "Because the Constitution requires odd numbers",
+      "To match the number of House districts",
+      "Because of the national census"
+    ],
+    "correct": "Equal representation for small states"
   },
   {
     "id": 30,
-    "question": "If the President can no longer serve, who becomes President?",
-    "options": [
-      "The Vice President",
-      "The Chief Justice",
-      "The Speaker of the House",
-      "The Secretary of State"
-    ],
-    "correct": "The Vice President"
-  },
-  {
-    "id": 31,
-    "question": "If both the President and the Vice President can no longer serve, who becomes President?",
-    "options": [
-      "The Speaker of the House",
-      "The Chief Justice",
-      "The Secretary of State",
-      "The Secretary of Defense"
-    ],
-    "correct": "The Speaker of the House"
-  },
-  {
-    "id": 32,
-    "question": "Who is the Commander in Chief of the military?",
-    "options": [
-      "The President",
-      "The Secretary of Defense",
-      "The Vice President",
-      "The Speaker of the House"
-    ],
-    "correct": "The President"
-  },
-  {
-    "id": 33,
-    "question": "Who signs bills to become laws?",
-    "options": [
-      "The President",
-      "The Vice President",
-      "The Speaker of the House",
-      "The Chief Justice"
-    ],
-    "correct": "The President"
-  },
-  {
-    "id": 34,
-    "question": "Who vetoes bills?",
-    "options": [
-      "The President",
-      "The Vice President",
-      "The Speaker of the House",
-      "The Chief Justice"
-    ],
-    "correct": "The President"
-  },
-  {
-    "id": 35,
-    "question": "What does the President’s Cabinet do?",
-    "options": [
-      "Advises the President",
-      "Makes laws",
-      "Controls the military",
-      "Runs the courts"
-    ],
-    "correct": "Advises the President"
-  },
-  {
-    "id": 36,
-    "question": "Which one is Cabinet-level positions?",
-    "options": [
-      "Secretary of University",
-      "Secretary of State",
-      "Secretary of District",
-      "Secretary of Technology"
-    ],
-    "correct": "Secretary of State"
-  },
-  {
-    "id": 37,
-    "question": "What does the judicial branch do?",
-    "options": ["Reviews laws", "Makes laws", "Enforces laws", "Writes laws"],
-    "correct": "Reviews laws"
-  },
-  {
-    "id": 38,
-    "question": "What is the highest court in the United States?",
-    "options": [
-      "The Supreme Court",
-      "The Court of Appeals",
-      "The District Court",
-      "The High Court"
-    ],
-    "correct": "The Supreme Court"
-  },
-  {
-    "id": 39,
-    "question": "How many justices are on the Supreme Court (as of 2024)?",
-    "options": ["Eight (8)", "Nine (9)", "Ten (10)", "Twelve (12)"],
-    "correct": "Nine (9)"
-  },
-  {
-    "id": 40,
-    "question": "Who is the Chief Justice of the United States now?",
-    "options": [
-      "Samuel A. Alito",
-      "John Roberts",
-      "Clarence Thomas",
-      "Stephen Breyer"
-    ],
-    "correct": "John Roberts"
-  },
-  {
-    "id": 41,
-    "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
-    "options": [
-      "To print money",
-      "To establish schools",
-      "To regulate marriages",
-      "To set traffic laws"
-    ],
-    "correct": "To print money"
-  },
-  {
-    "id": 42,
-    "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
-    "options": [
-      "Provide schooling and education",
-      "Print money",
-      "Declare war",
-      "Make treaties"
-    ],
-    "correct": "Provide schooling and education"
-  },
-  {
-    "id": 43,
-    "question": "What does the judicial branch do?",
-    "options": [
-      "Resolves Disputes",
-      "Makes laws",
-      "Enforces laws",
-      "Writes laws"
-    ],
-    "correct": "Resolves Disputes"
-  },
-  {
-    "id": 44,
-    "question": "Which one is Cabinet-level positions?",
-    "options": [
-      "Secretary of University",
-      "Secretary of Education",
-      "Secretary of District",
-      "Secretary of Technology"
-    ],
-    "correct": "Secretary of Education"
-  },
-  {
-    "id": 45,
-    "question": "What are the two major political parties in the United States?",
-    "options": [
-      "Democratic and Republican",
-      "Libertarian and Green",
-      "Independent and Socialist",
-      "Constitution and Reform"
-    ],
-    "correct": "Democratic and Republican"
-  },
-  {
-    "id": 46,
-    "question": "What is the political party of the President now?",
-    "options": ["Dependent", "Democratic", "Republican", "Independent"],
-    "correct": "Republican"
-  },
-  {
-    "id": 47,
     "question": "What is the name of the Speaker of the House of Representatives now?",
     "options": [
       "Mike Johnson",
@@ -452,8 +308,338 @@
     "correct": "Mike Johnson"
   },
   {
+    "id": 31,
+    "question": "Who does a U.S. senator represent?",
+    "options": [
+      "All people of the state",
+      "The President",
+      "The Supreme Court",
+      "State Governors"
+    ],
+    "correct": "All people of the state"
+  },
+  {
+    "id": 32,
+    "question": "Who elects U.S. senators?",
+    "options": [
+      "Citizens of their state",
+      "The President",
+      "The House of Representatives",
+      "State governors"
+    ],
+    "correct": "Citizens of their state"
+  },
+  {
+    "id": 33,
+    "question": "Who does a member of the House of Representatives represent?",
+    "options": [
+      "Citizens in their district",
+      "The entire state",
+      "The President",
+      "Foreign governments"
+    ],
+    "correct": "Citizens in their district"
+  },
+  {
+    "id": 34,
+    "question": "Who elects members of the House of Representatives?",
+    "options": [
+      "Citizens from their district",
+      "U.S. senators",
+      "The Supreme Court",
+      "The Cabinet"
+    ],
+    "correct": "Citizens from their district"
+  },
+  {
+    "id": 35,
+    "question": "Some states have more representatives than other states. Why?",
+    "options": [
+      "Because of the state’s population",
+      "Because of the size of the state",
+      "Because of the state’s economy",
+      "Because of the state’s geography"
+    ],
+    "correct": "Because of the state’s population"
+  },
+  {
+    "id": 36,
+    "question": "The President of the United States is elected for how many years?",
+    "options": [
+      "Four (4)",
+      "Two (2)",
+      "Six (6)",
+      "Eight (8)"
+    ],
+    "correct": "Four (4)"
+  },
+  {
+    "id": 37,
+    "question": "The President of the United States can serve only two terms. Why?",
+    "options": [
+      "Because of the 22nd Amendment",
+      "Because of the 1st Amendment",
+      "Because Congress votes on it each term",
+      "Because of the Bill of Rights"
+    ],
+    "correct": "Because of the 22nd Amendment"
+  },
+  {
+    "id": 38,
+    "question": "What is the name of the President of the United States now?",
+    "options": [
+      "Kamala Harris",
+      "Joe Biden",
+      "Donald Trump",
+      "Barack Obama"
+    ],
+    "correct": "Donald Trump"
+  },
+  {
+    "id": 39,
+    "question": "What is the name of the Vice President of the United States now?",
+    "options": [
+      "JD Vance",
+      "Kamala Harris",
+      "Mike Pence",
+      "Nancy Pelosi"
+    ],
+    "correct": "JD Vance"
+  },
+  {
+    "id": 40,
+    "question": "If the president can no longer serve, who becomes president?",
+    "options": [
+      "The Vice President",
+      "The Chief Justice",
+      "The Speaker of the House",
+      "The Secretary of State"
+    ],
+    "correct": "The Vice President"
+  },
+  {
+    "id": 41,
+    "question": "Name one power of the president.",
+    "options": [
+      "Signs bills into law",
+      "Writes state laws",
+      "Decides court cases",
+      "Collects state taxes"
+    ],
+    "correct": "Signs bills into law"
+  },
+  {
+    "id": 42,
+    "question": "Who is Commander in Chief of the U.S. military?",
+    "options": [
+      "The President",
+      "The Secretary of Defense",
+      "The Vice President",
+      "The Speaker of the House"
+    ],
+    "correct": "The President"
+  },
+  {
+    "id": 43,
+    "question": "Who signs bills to become laws?",
+    "options": [
+      "The President",
+      "The Vice President",
+      "The Speaker of the House",
+      "The Chief Justice"
+    ],
+    "correct": "The President"
+  },
+  {
+    "id": 44,
+    "question": "Who vetoes bills?",
+    "options": [
+      "The President",
+      "The Vice President",
+      "The Speaker of the House",
+      "The Chief Justice"
+    ],
+    "correct": "The President"
+  },
+  {
+    "id": 45,
+    "question": "Who appoints federal judges?",
+    "options": [
+      "The President",
+      "The House of Representatives",
+      "State governors",
+      "The Vice President, acting alone"
+    ],
+    "correct": "The President"
+  },
+  {
+    "id": 46,
+    "question": "The executive branch has many parts. Name one.",
+    "options": [
+      "The Cabinet",
+      "The Senate",
+      "The Supreme Court",
+      "The House of Representatives"
+    ],
+    "correct": "The Cabinet"
+  },
+  {
+    "id": 47,
+    "question": "What does the President’s Cabinet do?",
+    "options": [
+      "Advises the President",
+      "Makes laws",
+      "Controls the military",
+      "Runs the courts"
+    ],
+    "correct": "Advises the President"
+  },
+  {
     "id": 48,
-    "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "question": "What are two Cabinet-level positions?",
+    "options": [
+      "Secretary of State and Secretary of Defense",
+      "Secretary of Technology and Secretary of Sports",
+      "Secretary of Universities and Secretary of Districts",
+      "Secretary of Fashion and Secretary of Entertainment"
+    ],
+    "correct": "Secretary of State and Secretary of Defense"
+  },
+  {
+    "id": 49,
+    "question": "Why is the Electoral College important?",
+    "options": [
+      "It decides who is elected president",
+      "It counts each state's population",
+      "It writes federal election laws",
+      "It chooses Supreme Court justices"
+    ],
+    "correct": "It decides who is elected president"
+  },
+  {
+    "id": 50,
+    "question": "What is one part of the judicial branch?",
+    "options": [
+      "The Supreme Court",
+      "The Senate",
+      "The Cabinet",
+      "The House of Representatives"
+    ],
+    "correct": "The Supreme Court"
+  },
+  {
+    "id": 51,
+    "question": "What does the judicial branch do?",
+    "options": [
+      "Reviews laws",
+      "Makes laws",
+      "Enforces laws",
+      "Writes laws"
+    ],
+    "correct": "Reviews laws"
+  },
+  {
+    "id": 52,
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "The Supreme Court",
+      "The Court of Appeals",
+      "The District Court",
+      "The High Court"
+    ],
+    "correct": "The Supreme Court"
+  },
+  {
+    "id": 53,
+    "question": "How many seats are on the Supreme Court?",
+    "options": [
+      "Eight (8)",
+      "Nine (9)",
+      "Ten (10)",
+      "Twelve (12)"
+    ],
+    "correct": "Nine (9)"
+  },
+  {
+    "id": 54,
+    "question": "How many Supreme Court justices are usually needed to decide a case?",
+    "options": [
+      "5",
+      "9",
+      "3",
+      "7"
+    ],
+    "correct": "5"
+  },
+  {
+    "id": 55,
+    "question": "How long do Supreme Court justices serve?",
+    "options": [
+      "For life",
+      "4 years",
+      "6 years",
+      "10 years"
+    ],
+    "correct": "For life"
+  },
+  {
+    "id": 56,
+    "question": "Supreme Court justices serve for life. Why?",
+    "options": [
+      "To be independent of politics",
+      "To earn a higher salary",
+      "To avoid ever retiring",
+      "To serve the president longer"
+    ],
+    "correct": "To be independent of politics"
+  },
+  {
+    "id": 57,
+    "question": "Who is the Chief Justice of the United States now?",
+    "options": [
+      "Samuel A. Alito",
+      "John Roberts",
+      "Clarence Thomas",
+      "Stephen Breyer"
+    ],
+    "correct": "John Roberts"
+  },
+  {
+    "id": 58,
+    "question": "Name one power that is only for the federal government.",
+    "options": [
+      "Print paper money",
+      "Give driver's licenses",
+      "Provide local police departments",
+      "Approve local zoning laws"
+    ],
+    "correct": "Print paper money"
+  },
+  {
+    "id": 59,
+    "question": "Name one power that is only for the states.",
+    "options": [
+      "Give a driver's license",
+      "Print paper money",
+      "Declare war",
+      "Make treaties with other countries"
+    ],
+    "correct": "Give a driver's license"
+  },
+  {
+    "id": 60,
+    "question": "What is the purpose of the 10th Amendment?",
+    "options": [
+      "Powers not given to the federal government belong to the states or the people",
+      "It gives the president power over the states",
+      "It ends the Electoral College",
+      "It allows new states to join the Union"
+    ],
+    "correct": "Powers not given to the federal government belong to the states or the people"
+  },
+  {
+    "id": 63,
+    "question": "There are four amendments to the U.S. Constitution about who can vote. Describe one of them.",
     "options": [
       "Citizens eighteen (18) and older (can vote)",
       "Only property owners can vote",
@@ -463,40 +649,29 @@
     "correct": "Citizens eighteen (18) and older (can vote)"
   },
   {
-    "id": 49,
-    "question": "What are responsibility that is only for United States citizens?",
+    "id": 64,
+    "question": "Who can vote in federal elections, run for federal office, and serve on a jury in the United States?",
     "options": [
-      "Serve on a jury and vote in a federal election",
-      "Obey the laws",
-      "Pay taxes",
-      "Attend school"
+      "U.S. citizens",
+      "Any U.S. resident",
+      "Only natural-born citizens",
+      "Anyone over the age of 16"
     ],
-    "correct": "Serve on a jury and vote in a federal election"
+    "correct": "U.S. citizens"
   },
   {
-    "id": 50,
-    "question": "Name one right only for United States citizens.",
+    "id": 65,
+    "question": "What are three rights of everyone living in the United States?",
     "options": [
-      "Vote in a federal election",
-      "Freedom of speech",
-      "Freedom of assembly",
-      "Freedom of religion"
+      "Freedom of speech, religion, and assembly",
+      "The right to vote, run for office, and serve on juries",
+      "The right to drive, work, and travel freely",
+      "The right to free housing, food, and healthcare"
     ],
-    "correct": "Vote in a federal election"
+    "correct": "Freedom of speech, religion, and assembly"
   },
   {
-    "id": 51,
-    "question": "What are two rights of everyone living in the United States?",
-    "options": [
-      "Freedom of expression and Freedom of speech",
-      "Right to bear arms and Right to privacy",
-      "Right to travel and Right to work",
-      "Right to education and Right to healthcare"
-    ],
-    "correct": "Freedom of expression and Freedom of speech"
-  },
-  {
-    "id": 52,
+    "id": 66,
     "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
     "options": [
       "The United States and the flag",
@@ -507,58 +682,74 @@
     "correct": "The United States and the flag"
   },
   {
-    "id": 53,
-    "question": "What is one promise you make when you become a United States citizen?",
+    "id": 67,
+    "question": "Name two promises that new citizens make in the Oath of Allegiance.",
     "options": [
-      "Give up loyalty to other countries",
-      "Pay taxes",
-      "Obey the speed limits",
-      "Register to vote"
+      "Be loyal to the United States and defend the Constitution",
+      "Pay higher taxes and serve in Congress",
+      "Give up the English language",
+      "Move to Washington, D.C."
     ],
-    "correct": "Give up loyalty to other countries"
+    "correct": "Be loyal to the United States and defend the Constitution"
   },
   {
-    "id": 54,
-    "question": "How old do citizens have to be to vote for President?",
+    "id": 68,
+    "question": "How can people become United States citizens?",
     "options": [
-      "Eighteen (18) and older",
-      "Sixteen (16) and older",
-      "Twenty-one (21) and older",
-      "Twenty-five (25) and older"
+      "Through naturalization",
+      "By buying property in the U.S.",
+      "By getting a driver's license",
+      "By paying federal taxes"
     ],
-    "correct": "Eighteen (18) and older"
+    "correct": "Through naturalization"
   },
   {
-    "id": 55,
-    "question": "What are two ways that Americans can participate in their democracy?",
+    "id": 69,
+    "question": "What are two examples of civic participation in the United States?",
     "options": [
-      "Vote and join a political party",
-      "Run for office and travel",
-      "Start a business and pay taxes",
-      "Get a job and own property"
+      "Vote and run for office",
+      "Watch TV and shop online",
+      "Drive and travel abroad",
+      "Cook and clean at home"
     ],
-    "correct": "Vote and join a political party"
+    "correct": "Vote and run for office"
   },
   {
-    "id": 56,
-    "question": "When is the last day you can send in federal income tax forms?",
-    "options": ["April 15", "January 1", "July 4", "December 31"],
-    "correct": "April 15"
-  },
-  {
-    "id": 57,
-    "question": "When must all men register for the Selective Service?",
+    "id": 70,
+    "question": "What is one way Americans can serve their country?",
     "options": [
-      "between eighteen (18) and twenty-six (26)",
-      "At age sixteen (16)",
-      "At age twenty-one (21)",
-      "At age twenty-five (25)"
+      "Vote",
+      "Complain about the government online",
+      "Avoid jury duty",
+      "Skip elections"
     ],
-    "correct": "between eighteen (18) and twenty-six (26)"
+    "correct": "Vote"
   },
   {
-    "id": 58,
-    "question": "What is one reason colonists came to America?",
+    "id": 71,
+    "question": "Why is it important to pay federal taxes?",
+    "options": [
+      "It is required by law",
+      "Paying taxes is optional",
+      "Only citizens have to pay",
+      "Taxes only fund state parks"
+    ],
+    "correct": "It is required by law"
+  },
+  {
+    "id": 72,
+    "question": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+    "options": [
+      "It is required by law",
+      "It guarantees a government job",
+      "It lowers your taxes",
+      "It is only for volunteers"
+    ],
+    "correct": "It is required by law"
+  },
+  {
+    "id": 73,
+    "question": "The colonists came to America for many reasons. Name one.",
     "options": [
       "Freedom",
       "To establish a monarchy",
@@ -568,80 +759,106 @@
     "correct": "Freedom"
   },
   {
-    "id": 59,
+    "id": 74,
     "question": "Who lived in America before the Europeans arrived?",
-    "options": ["American Indians", "Europeans", "Africans", "Asians"],
+    "options": [
+      "American Indians",
+      "Europeans",
+      "Africans",
+      "Asians"
+    ],
     "correct": "American Indians"
   },
   {
-    "id": 60,
-    "question": "What group of people was taken to America and sold as slaves?",
-    "options": ["Africans", "Europeans", "Asians", "Australians"],
+    "id": 75,
+    "question": "What group of people was taken and sold as slaves?",
+    "options": [
+      "Africans",
+      "Europeans",
+      "Asians",
+      "South Americans"
+    ],
     "correct": "Africans"
   },
   {
-    "id": 61,
-    "question": "Why did the colonists fight the British?",
+    "id": 76,
+    "question": "What war did the Americans fight to win independence from Britain?",
     "options": [
-      "Because of high taxes (taxation without representation)",
-      "Because they wanted to become British citizens",
-      "Because they wanted to move to France",
-      "Because they wanted to end slavery"
+      "The American Revolution",
+      "The Civil War",
+      "World War I",
+      "The War of 1812"
     ],
-    "correct": "Because of high taxes (taxation without representation)"
+    "correct": "The American Revolution"
   },
   {
-    "id": 62,
+    "id": 77,
+    "question": "Name one reason why the Americans declared independence from Britain.",
+    "options": [
+      "Taxation without representation",
+      "Too much freedom",
+      "British kindness toward colonists",
+      "A French invasion"
+    ],
+    "correct": "Taxation without representation"
+  },
+  {
+    "id": 78,
     "question": "Who wrote the Declaration of Independence?",
     "options": [
       "Thomas Jefferson",
       "George Washington",
-      "John Adams",
-      "Benjamin Franklin"
+      "Benjamin Franklin",
+      "John Adams"
     ],
     "correct": "Thomas Jefferson"
   },
   {
-    "id": 63,
+    "id": 79,
     "question": "When was the Declaration of Independence adopted?",
     "options": [
       "July 4, 1776",
-      "January 1, 1776",
       "December 25, 1776",
-      "November 11, 1776"
+      "July 4, 1789",
+      "April 15, 1776"
     ],
     "correct": "July 4, 1776"
   },
   {
-    "id": 64,
-    "question": "There were 13 original states. Name three.",
+    "id": 80,
+    "question": "The American Revolution had many important events. Name one.",
     "options": [
-      "New Hampshire, Massachusetts, Rhode Island",
-      "California, Texas, Florida",
-      "Washington, Oregon, Nevada",
-      "Ohio, Michigan, Indiana"
+      "The Declaration of Independence",
+      "The Louisiana Purchase",
+      "The California Gold Rush",
+      "The first moon landing"
     ],
-    "correct": "New Hampshire, Massachusetts, Rhode Island"
+    "correct": "The Declaration of Independence"
   },
   {
-    "id": 65,
-    "question": "What happened at the Constitutional Convention?",
+    "id": 81,
+    "question": "There were 13 original states. Name five.",
     "options": [
-      "The Constitution was written",
-      "The Declaration of Independence was signed",
-      "The Bill of Rights was created",
-      "The Civil War ended"
+      "New York, New Jersey, Pennsylvania, Virginia, and Georgia",
+      "California, Texas, Florida, Ohio, and Michigan",
+      "Washington, Oregon, Nevada, Arizona, and Colorado",
+      "Alaska, Hawaii, Maine, Vermont, and Kentucky"
     ],
-    "correct": "The Constitution was written"
+    "correct": "New York, New Jersey, Pennsylvania, Virginia, and Georgia"
   },
   {
-    "id": 66,
-    "question": "When was the Constitution written?",
-    "options": ["1787", "1776", "1803", "1812"],
-    "correct": "1787"
+    "id": 82,
+    "question": "What founding document was written in 1787?",
+    "options": [
+      "The Constitution",
+      "The Declaration of Independence",
+      "The Bill of Rights",
+      "The Emancipation Proclamation"
+    ],
+    "correct": "The Constitution"
   },
   {
-    "id": 67,
+    "id": 83,
     "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
     "options": [
       "James Madison",
@@ -652,8 +869,19 @@
     "correct": "James Madison"
   },
   {
-    "id": 68,
-    "question": "What is one thing Benjamin Franklin is famous for?",
+    "id": 84,
+    "question": "Why were the Federalist Papers important?",
+    "options": [
+      "They helped people understand the Constitution",
+      "They declared independence from Britain",
+      "They ended slavery",
+      "They created the political parties"
+    ],
+    "correct": "They helped people understand the Constitution"
+  },
+  {
+    "id": 85,
+    "question": "Benjamin Franklin is famous for many things. Name one.",
     "options": [
       "U.S. diplomat",
       "First President",
@@ -663,41 +891,73 @@
     "correct": "U.S. diplomat"
   },
   {
-    "id": 69,
-    "question": "Who is the “Father of Our Country”?",
+    "id": 86,
+    "question": "George Washington is famous for many things. Name one.",
     "options": [
-      "George Washington",
-      "Thomas Jefferson",
-      "John Adams",
-      "James Madison"
+      "First president of the United States",
+      "Writer of the U.S. Constitution",
+      "Inventor of the light bulb",
+      "Military leader in the Civil War"
     ],
-    "correct": "George Washington"
+    "correct": "First president of the United States"
   },
   {
-    "id": 70,
-    "question": "Who was the first President?",
+    "id": 87,
+    "question": "Thomas Jefferson is famous for many things. Name one.",
     "options": [
-      "George Washington",
-      "Thomas Jefferson",
-      "John Adams",
-      "James Madison"
+      "Writer of the Declaration of Independence",
+      "First Secretary of Defense",
+      "Founder of the Federal Reserve",
+      "Commander in the Civil War"
     ],
-    "correct": "George Washington"
+    "correct": "Writer of the Declaration of Independence"
   },
   {
-    "id": 71,
+    "id": 88,
+    "question": "James Madison is famous for many things. Name one.",
+    "options": [
+      "Father of the Constitution",
+      "First Vice President",
+      "Discoverer of electricity",
+      "Founder of the U.S. Navy"
+    ],
+    "correct": "Father of the Constitution"
+  },
+  {
+    "id": 89,
+    "question": "Alexander Hamilton is famous for many things. Name one.",
+    "options": [
+      "First Secretary of the Treasury",
+      "Second president of the United States",
+      "Chief Justice of the Supreme Court",
+      "General in the Civil War"
+    ],
+    "correct": "First Secretary of the Treasury"
+  },
+  {
+    "id": 90,
     "question": "What territory did the United States buy from France in 1803?",
-    "options": ["The Louisiana Territory", "Alaska", "Hawaii", "Florida"],
+    "options": [
+      "The Louisiana Territory",
+      "Alaska",
+      "Hawaii",
+      "Florida"
+    ],
     "correct": "The Louisiana Territory"
   },
   {
-    "id": 72,
+    "id": 91,
     "question": "Name one war fought by the United States in the 1800s.",
-    "options": ["Civil War", "World War I", "Korean War", "Vietnam War"],
+    "options": [
+      "Civil War",
+      "World War I",
+      "Korean War",
+      "Vietnam War"
+    ],
     "correct": "Civil War"
   },
   {
-    "id": 73,
+    "id": 92,
     "question": "Name the U.S. war between the North and the South.",
     "options": [
       "The Civil War",
@@ -708,14 +968,19 @@
     "correct": "The Civil War"
   },
   {
-    "id": 74,
-    "question": "Name one problem that led to the Civil War.",
-    "options": ["Slavery", "Taxes", "Trade", "Land disputes"],
-    "correct": "Slavery"
+    "id": 93,
+    "question": "The Civil War had many important events. Name one.",
+    "options": [
+      "The Battle of Gettysburg",
+      "The Boston Tea Party",
+      "The D-Day invasion",
+      "The signing of the Constitution"
+    ],
+    "correct": "The Battle of Gettysburg"
   },
   {
-    "id": 75,
-    "question": "What was one important thing that Abraham Lincoln did?",
+    "id": 94,
+    "question": "Abraham Lincoln is famous for many things. Name one.",
     "options": [
       "Freed the slaves (Emancipation Proclamation)",
       "Wrote the Constitution",
@@ -725,7 +990,7 @@
     "correct": "Freed the slaves (Emancipation Proclamation)"
   },
   {
-    "id": 76,
+    "id": 95,
     "question": "What did the Emancipation Proclamation do?",
     "options": [
       "Freed the slaves",
@@ -736,86 +1001,195 @@
     "correct": "Freed the slaves"
   },
   {
-    "id": 77,
-    "question": "What did Susan B. Anthony do?",
+    "id": 96,
+    "question": "What U.S. war ended slavery?",
     "options": [
-      "Fought for women’s rights",
-      "Invented the telephone",
-      "Discovered electricity",
-      "Wrote the Declaration of Independence"
+      "The Civil War",
+      "The Revolutionary War",
+      "World War I",
+      "The Vietnam War"
     ],
-    "correct": "Fought for women’s rights"
+    "correct": "The Civil War"
   },
   {
-    "id": 78,
+    "id": 97,
+    "question": "What amendment says all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are U.S. citizens?",
+    "options": [
+      "14th Amendment",
+      "1st Amendment",
+      "10th Amendment",
+      "22nd Amendment"
+    ],
+    "correct": "14th Amendment"
+  },
+  {
+    "id": 98,
+    "question": "When did all men get the right to vote?",
+    "options": [
+      "After the Civil War (15th Amendment)",
+      "In 1776",
+      "In 1920 (19th Amendment)",
+      "In 1971 (26th Amendment)"
+    ],
+    "correct": "After the Civil War (15th Amendment)"
+  },
+  {
+    "id": 99,
+    "question": "Name one leader of the women’s rights movement in the 1800s.",
+    "options": [
+      "Susan B. Anthony",
+      "Harriet Beecher Stowe",
+      "Clara Barton",
+      "Sacagawea"
+    ],
+    "correct": "Susan B. Anthony"
+  },
+  {
+    "id": 100,
     "question": "Name one war fought by the United States in the 1900s.",
-    "options": ["World War I", "Civil War", "Revolutionary War", "War of 1812"],
+    "options": [
+      "World War I",
+      "Civil War",
+      "Revolutionary War",
+      "War of 1812"
+    ],
     "correct": "World War I"
   },
   {
-    "id": 79,
-    "question": "Who was President during World War I?",
+    "id": 101,
+    "question": "Why did the United States enter World War I?",
     "options": [
-      "Woodrow Wilson",
-      "Franklin Roosevelt",
-      "Harry Truman",
-      "Dwight Eisenhower"
+      "Because Germany attacked U.S. ships",
+      "Because of the attack on Pearl Harbor",
+      "To end the Great Depression",
+      "To build the Panama Canal"
     ],
-    "correct": "Woodrow Wilson"
+    "correct": "Because Germany attacked U.S. ships"
   },
   {
-    "id": 80,
-    "question": "Who was President during the Great Depression and World War II?",
+    "id": 102,
+    "question": "When did all women get the right to vote?",
+    "options": [
+      "1920",
+      "1776",
+      "1865",
+      "1945"
+    ],
+    "correct": "1920"
+  },
+  {
+    "id": 103,
+    "question": "What was the Great Depression?",
+    "options": [
+      "The longest economic recession in modern history",
+      "A war fought in Europe",
+      "A drought limited to the Midwest",
+      "A political protest movement"
+    ],
+    "correct": "The longest economic recession in modern history"
+  },
+  {
+    "id": 104,
+    "question": "When did the Great Depression start?",
+    "options": [
+      "1929, with the stock market crash",
+      "1914",
+      "1939",
+      "1945"
+    ],
+    "correct": "1929, with the stock market crash"
+  },
+  {
+    "id": 105,
+    "question": "Who was president during the Great Depression and World War II?",
     "options": [
       "Franklin Roosevelt",
-      "Woodrow Wilson",
+      "Herbert Hoover",
       "Harry Truman",
       "Dwight Eisenhower"
     ],
     "correct": "Franklin Roosevelt"
   },
   {
-    "id": 81,
-    "question": "Who did the United States fight in World War II?",
+    "id": 106,
+    "question": "Why did the United States enter World War II?",
     "options": [
-      "Japan, Germany, and Italy",
-      "France, Russia, and China",
-      "Spain, Portugal, and Brazil",
-      "Canada, Mexico, and Cuba"
+      "Japan attacked Pearl Harbor",
+      "Germany attacked U.S. ships",
+      "To stop communism in Korea",
+      "To free Kuwait from Iraq"
     ],
-    "correct": "Japan, Germany, and Italy"
+    "correct": "Japan attacked Pearl Harbor"
   },
   {
-    "id": 82,
-    "question": "Before he was President, Eisenhower was a general. What war was he in?",
+    "id": 107,
+    "question": "Dwight Eisenhower is famous for many things. Name one.",
     "options": [
-      "World War II",
-      "World War I",
-      "The Civil War",
-      "The Revolutionary War"
+      "General during World War II",
+      "Inventor of the airplane",
+      "First man on the moon",
+      "Founder of the United Nations"
     ],
-    "correct": "World War II"
+    "correct": "General during World War II"
   },
   {
-    "id": 83,
-    "question": "During the Cold War, what was the main concern of the United States?",
-    "options": ["Communism", "Slavery", "Poverty", "Environmental issues"],
+    "id": 108,
+    "question": "Who was the United States’ main rival during the Cold War?",
+    "options": [
+      "The Soviet Union",
+      "Germany",
+      "Japan",
+      "Great Britain"
+    ],
+    "correct": "The Soviet Union"
+  },
+  {
+    "id": 109,
+    "question": "During the Cold War, what was one main concern of the United States?",
+    "options": [
+      "Communism",
+      "Slavery",
+      "Poverty",
+      "Environmental issues"
+    ],
     "correct": "Communism"
   },
   {
-    "id": 84,
-    "question": "What movement tried to end racial discrimination?",
+    "id": 110,
+    "question": "Why did the United States enter the Korean War?",
     "options": [
-      "Civil rights movement",
-      "Labor movement",
-      "Environmental movement",
-      "Women’s suffrage"
+      "To stop the spread of communism",
+      "To free Kuwait from Iraq",
+      "Because of the attack on Pearl Harbor",
+      "To end the Vietnam War"
     ],
-    "correct": "Civil rights movement"
+    "correct": "To stop the spread of communism"
   },
   {
-    "id": 85,
-    "question": "What did Martin Luther King, Jr. do?",
+    "id": 111,
+    "question": "Why did the United States enter the Vietnam War?",
+    "options": [
+      "To stop the spread of communism",
+      "To free Kuwait from Iraq",
+      "Because of the attack on Pearl Harbor",
+      "To end World War II"
+    ],
+    "correct": "To stop the spread of communism"
+  },
+  {
+    "id": 112,
+    "question": "What did the civil rights movement do?",
+    "options": [
+      "Fought to end racial discrimination",
+      "Started the space race",
+      "Ended the Cold War",
+      "Created the internet"
+    ],
+    "correct": "Fought to end racial discrimination"
+  },
+  {
+    "id": 113,
+    "question": "Martin Luther King, Jr. is famous for many things. Name one.",
     "options": [
       "Fought for civil rights",
       "Invented the telephone",
@@ -825,8 +1199,19 @@
     "correct": "Fought for civil rights"
   },
   {
-    "id": 86,
-    "question": "What major event happened on September 11, 2001, in the United States?",
+    "id": 114,
+    "question": "Why did the United States enter the Persian Gulf War?",
+    "options": [
+      "To force the Iraqi military from Kuwait",
+      "To stop communism in Vietnam",
+      "Because of the September 11 attacks",
+      "To end the Great Depression"
+    ],
+    "correct": "To force the Iraqi military from Kuwait"
+  },
+  {
+    "id": 115,
+    "question": "What major event happened on September 11, 2001 in the United States?",
     "options": [
       "Terrorists attacked the United States",
       "The stock market crashed",
@@ -836,70 +1221,51 @@
     "correct": "Terrorists attacked the United States"
   },
   {
-    "id": 87,
+    "id": 116,
+    "question": "Name one U.S. military conflict after the September 11, 2001 attacks.",
+    "options": [
+      "The war in Afghanistan",
+      "The Civil War",
+      "The Korean War",
+      "World War I"
+    ],
+    "correct": "The war in Afghanistan"
+  },
+  {
+    "id": 117,
     "question": "Name one American Indian tribe in the United States.",
-    "options": ["Cherokee", "Maori", "Zulu", "Kaku"],
+    "options": [
+      "Cherokee",
+      "Maori",
+      "Zulu",
+      "Kaku"
+    ],
     "correct": "Cherokee"
   },
   {
-    "id": 88,
-    "question": "Name one of the two longest rivers in the United States.",
+    "id": 118,
+    "question": "Name one example of an American innovation.",
     "options": [
-      "Missouri (River)",
-      "Nile (River)",
-      "Amazon (River)",
-      "Yangtze (River)"
+      "The light bulb",
+      "The printing press",
+      "Gunpowder",
+      "The magnetic compass"
     ],
-    "correct": "Missouri (River)"
+    "correct": "The light bulb"
   },
   {
-    "id": 89,
-    "question": "What ocean is on the West Coast of the United States?",
-    "options": [
-      "Pacific (Ocean)",
-      "Atlantic (Ocean)",
-      "Indian (Ocean)",
-      "Arctic (Ocean)"
-    ],
-    "correct": "Pacific (Ocean)"
-  },
-  {
-    "id": 90,
-    "question": "What ocean is on the East Coast of the United States?",
-    "options": [
-      "Atlantic (Ocean)",
-      "Pacific (Ocean)",
-      "Indian (Ocean)",
-      "Arctic (Ocean)"
-    ],
-    "correct": "Atlantic (Ocean)"
-  },
-  {
-    "id": 91,
-    "question": "Name one U.S. territory.",
-    "options": ["Puerto Rico", "Cuba", "Haiti", "Jamaica"],
-    "correct": "Puerto Rico"
-  },
-  {
-    "id": 92,
-    "question": "Name one state that borders Canada.",
-    "options": ["Maine", "Florida", "Texas", "California"],
-    "correct": "Maine"
-  },
-  {
-    "id": 93,
-    "question": "Name one state that borders Mexico.",
-    "options": ["California", "New York", "Washington", "Illinois"],
-    "correct": "California"
-  },
-  {
-    "id": 94,
+    "id": 119,
     "question": "What is the capital of the United States?",
-    "options": ["Washington, D.C.", "New York City", "Los Angeles", "Chicago"],
+    "options": [
+      "Washington, D.C.",
+      "New York City",
+      "Philadelphia",
+      "Los Angeles"
+    ],
     "correct": "Washington, D.C."
   },
   {
-    "id": 95,
+    "id": 120,
     "question": "Where is the Statue of Liberty?",
     "options": [
       "New York (Harbor)",
@@ -910,7 +1276,7 @@
     "correct": "New York (Harbor)"
   },
   {
-    "id": 96,
+    "id": 121,
     "question": "Why does the flag have 13 stripes?",
     "options": [
       "Because there were 13 original colonies",
@@ -921,7 +1287,7 @@
     "correct": "Because there were 13 original colonies"
   },
   {
-    "id": 97,
+    "id": 122,
     "question": "Why does the flag have 50 stars?",
     "options": [
       "Because there is one star for each state",
@@ -932,7 +1298,7 @@
     "correct": "Because there is one star for each state"
   },
   {
-    "id": 98,
+    "id": 123,
     "question": "What is the name of the national anthem?",
     "options": [
       "The Star-Spangled Banner",
@@ -943,20 +1309,58 @@
     "correct": "The Star-Spangled Banner"
   },
   {
-    "id": 99,
-    "question": "When do we celebrate Independence Day?",
-    "options": ["July 4", "January 1", "December 25", "November 11"],
-    "correct": "July 4"
+    "id": 124,
+    "question": "The Nation’s first motto was “E Pluribus Unum.” What does that mean?",
+    "options": [
+      "Out of many, one",
+      "In God we trust",
+      "Liberty and justice for all",
+      "One nation under God"
+    ],
+    "correct": "Out of many, one"
   },
   {
-    "id": 100,
-    "question": "Name two national U.S. holidays.",
+    "id": 125,
+    "question": "What is Independence Day?",
     "options": [
-      "New Year’s Day and Independence Day",
-      "Easter and Good Friday",
-      "Halloween and Halloween eve",
-      "Chocolate Day and Valentine's Day"
+      "A holiday celebrating U.S. independence from Britain",
+      "A holiday honoring military veterans",
+      "The day the Constitution was signed",
+      "The deadline for federal taxes"
     ],
-    "correct": "New Year’s Day and Independence Day"
+    "correct": "A holiday celebrating U.S. independence from Britain"
+  },
+  {
+    "id": 126,
+    "question": "Name three national U.S. holidays.",
+    "options": [
+      "Independence Day, Thanksgiving, and Christmas",
+      "Easter, Good Friday, and Halloween",
+      "Valentine's Day, St. Patrick's Day, and April Fools' Day",
+      "Super Bowl Sunday, Black Friday, and Cyber Monday"
+    ],
+    "correct": "Independence Day, Thanksgiving, and Christmas"
+  },
+  {
+    "id": 127,
+    "question": "What is Memorial Day?",
+    "options": [
+      "A holiday honoring soldiers who died in military service",
+      "A holiday honoring all veterans",
+      "The president's birthday",
+      "The unofficial first day of summer"
+    ],
+    "correct": "A holiday honoring soldiers who died in military service"
+  },
+  {
+    "id": 128,
+    "question": "What is Veterans Day?",
+    "options": [
+      "A holiday honoring people who served in the U.S. military",
+      "A holiday celebrating new citizens",
+      "The day after Thanksgiving",
+      "A day honoring police officers"
+    ],
+    "correct": "A holiday honoring people who served in the U.S. military"
   }
 ]
