@@ -1,30 +1,115 @@
-.review-container {
-  margin-top: 50px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.1); /* Transparent background */
-  backdrop-filter: blur(10px); /* Blur effect */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  border-radius: 10px; /* Rounded corners */
+/* ---------- Review ---------- */
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 28px;
 }
 
-.review-section {
-  margin-top: 40px;
+.review-item {
+  padding: 22px;
+  animation: card-in 0.3s ease both;
 }
 
-.opt {
-  color: black;
-  text-align: left;
-  padding: 5px 15px;
-  display: block;
-  background: rgba(249, 249, 249, 0.5); /* Semi-transparent background */
-  backdrop-filter: blur(5px); /* Blur effect */
-  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
-  margin-top: 10px;
-  border-radius: 15px 1px; /* Custom border-radius */
-  transition: background-color 0.3s ease, transform 0.3s ease;
+.review-item-head {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 16px;
 }
 
-.opt:hover {
-  background: rgba(255, 228, 196, 0.5); /* Semi-transparent antiquewhite */
-  transform: translateY(-2px); /* Slight lift on hover */
+.review-verdict {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.review-verdict svg {
+  width: 17px;
+  height: 17px;
+}
+
+.review-verdict.right {
+  background: var(--green-50);
+  color: var(--green-600);
+}
+
+.review-verdict.wrong {
+  background: var(--red-50);
+  color: var(--red-600);
+}
+
+.review-item h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.review-num {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.review-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--line);
+  padding: 11px 14px;
+  font-size: 14.5px;
+  background: var(--paper);
+}
+
+.ro-text {
+  line-height: 1.45;
+}
+
+.ro-tag {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.ro-tag.correct {
+  background: var(--green-500);
+  color: #fff;
+}
+
+.ro-tag.yours {
+  background: var(--red-500);
+  color: #fff;
+}
+
+.review-option.is-correct {
+  border-color: var(--green-500);
+  background: var(--green-50);
+}
+
+.review-option.is-wrong {
+  border-color: var(--red-500);
+  background: var(--red-50);
+}
+
+.review-foot {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12px;
 }

@@ -6,15 +6,17 @@ import Result from "./Result.jsx";
 import Review from "./Review.jsx";
 import Study from "./Study.jsx";
 import QuizStudy from "./QuizStudy.jsx";
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
-import "../styles/App.css";
 import QuizMarathon from "./QuizMarathon.jsx";
 import Flashcard from "./FlashCard.jsx";
+import Navbar from "./Navbar.jsx";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import "../styles/theme.css";
 
 function App() {
   return (
-    <div className="app">
+    <div className="app-shell">
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/flashcard" element={<Flashcard />} />

@@ -1,156 +1,315 @@
-.halfBackgroundQuiz {
-  background-image: url("../assets/statue.png");
-  background-size: cover;
-  height: 25vh;
-}
+/* ---------- Quiz & Marathon ---------- */
 
-.container {
-  width: 100%;
-  max-width: 500px;
-  min-width: 200px;
-  margin: 0 auto;
-}
-
-.pagination {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  flex-wrap: wrap;
-}
-
-.pagination button {
-  background: rgba(0, 164, 224, 0.1); /* Transparent background */
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  color: white;
-  cursor: pointer;
-  margin: 1px;
-  font-size: 0.8em;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+.quiz-topbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.quiz-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.quiz-count {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.quiz-answered {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.quiz-progress {
+  margin-bottom: 14px;
+}
+
+.question-dots {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
   border: none;
-  backdrop-filter: blur(10px); /* Blur effect */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background: #d8d4c4;
+  padding: 0;
+  transition: all 0.2s ease;
 }
 
-.pagination .active {
-  background-color: rgba(10, 49, 97, 0.7); /* Semi-transparent active color */
+.dot.answered {
+  background: var(--navy-600);
 }
 
-.pagination button:hover {
-  background-color: rgba(10, 49, 97, 0.5); /* Semi-transparent hover color */
-  transform: translateY(-2px);
+.dot.current {
+  background: var(--red-500);
+  transform: scale(1.35);
+  box-shadow: 0 0 0 4px rgba(209, 52, 56, 0.18);
 }
 
-.quiz-container {
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.1); /* Transparent background */
-  backdrop-filter: blur(15px); /* Blur effect */
-  margin: 20px;
-  max-width: 500px;
-  min-width: 200px;
-  transition: background-color 0.3s ease;
+.question-card {
+  padding: 30px 28px;
+  margin-bottom: 20px;
+  animation: card-in 0.3s ease both;
 }
 
-.quiz-container:hover {
-  background: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .question-text {
-  padding: 15px;
-  font-size: 1.3em;
-  color: #000;
-  margin-bottom: 20px;
-  border: 2px solid #333;
-  border-radius: 5px;
-  background: rgba(249, 249, 249, 0.8); /* Semi-transparent background */
-  backdrop-filter: blur(5px); /* Blur effect */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 22px;
 }
 
-.option {
-  border-radius: 5px;
-  margin: 5px 0;
-  transition: transform 0.3s ease;
+.warn-text {
+  background: var(--red-50);
+  color: var(--red-600);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
-.option button {
-  width: 100%;
-  padding: 15px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  font-size: 1em;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.option button:hover {
-  background-color: rgba(10, 49, 97, 0.5); /* Semi-transparent hover color */
-  transform: translateY(-2px);
-}
-
-.buttonContainer {
+.options {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.buttonContainer span {
-  cursor: pointer;
-}
-
-.correct {
-  background-color: green;
-  color: white;
-}
-
-.incorrect {
-  background-color: red;
-  color: white;
-}
-
-.option-button {
-  padding: 10px;
-  font-size: 16px;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.buttonContainer {
+.option-btn {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
-}
-
-.correct-answers-counter {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: right;
-  color: #4caf50; /* Green color for correct answers */
-}
-
-.popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
   align-items: center;
+  gap: 14px;
+  width: 100%;
+  text-align: left;
+  background: var(--paper);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink);
+  transition: all 0.16s ease;
 }
 
-.popup-content {
-  background-color: white;
-  color: black;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
+.option-btn:hover:not(:disabled) {
+  border-color: var(--navy-100);
+  background: #fff;
+  transform: translateX(3px);
+}
+
+.option-letter {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1.5px solid var(--line);
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--navy-700);
+  flex-shrink: 0;
+  transition: all 0.16s ease;
+}
+
+.option-text {
+  flex: 1;
+  line-height: 1.45;
+}
+
+.option-check {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--red-500);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.option-check svg {
+  width: 14px;
+  height: 14px;
+}
+
+.option-btn.selected {
+  border-color: var(--red-500);
+  background: var(--red-50);
+}
+
+.option-btn.selected .option-letter {
+  background: var(--red-500);
+  border-color: var(--red-500);
+  color: #fff;
+}
+
+/* Instant-feedback states (marathon) */
+.option-btn.correct {
+  border-color: var(--green-500);
+  background: var(--green-50);
+}
+
+.option-btn.correct .option-letter {
+  background: var(--green-500);
+  border-color: var(--green-500);
+  color: #fff;
+}
+
+.option-btn.correct .option-check {
+  background: var(--green-500);
+}
+
+.option-btn.wrong {
+  border-color: var(--red-500);
+  background: var(--red-50);
+}
+
+.option-btn.wrong .option-letter {
+  background: var(--red-500);
+  border-color: var(--red-500);
+  color: #fff;
+}
+
+.option-btn:disabled {
+  cursor: default;
+}
+
+.option-btn.dimmed {
+  opacity: 0.55;
+}
+
+.quiz-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* Marathon extras */
+.marathon-stats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.marathon-stat {
+  flex: 1;
+  background: var(--card);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(228, 225, 214, 0.7);
+}
+
+.marathon-stat svg {
+  width: 20px;
+  height: 20px;
+}
+
+.marathon-stat .ms-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.marathon-stat .ms-icon.green {
+  background: var(--green-50);
+  color: var(--green-600);
+}
+
+.marathon-stat .ms-icon.gold {
+  background: #fdf3e0;
+  color: var(--gold-500);
+}
+
+.marathon-stat .ms-icon.navy {
+  background: var(--navy-50);
+  color: var(--navy-700);
+}
+
+.marathon-stat strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.marathon-stat span {
+  font-size: 11.5px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.feedback-banner {
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: card-in 0.25s ease both;
+}
+
+.feedback-banner svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.feedback-banner.good {
+  background: var(--green-50);
+  color: var(--green-600);
+}
+
+.feedback-banner.bad {
+  background: var(--red-50);
+  color: var(--red-600);
+}
+
+@media (max-width: 560px) {
+  .question-card {
+    padding: 22px 18px;
+  }
+
+  .question-text {
+    font-size: 17.5px;
+  }
+
+  .marathon-stats {
+    flex-direction: column;
+  }
 }

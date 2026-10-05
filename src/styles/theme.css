@@ -1,0 +1,455 @@
+/* ============================================================
+   American Dream Quiz — Design System
+   ============================================================ */
+
+:root {
+  /* Palette */
+  --navy-950: #0c1730;
+  --navy-900: #12224a;
+  --navy-800: #1a3268;
+  --navy-700: #244284;
+  --navy-600: #2f56a8;
+  --navy-100: #dbe4f7;
+  --navy-50: #eef2fc;
+
+  --red-600: #b4232a;
+  --red-500: #d13438;
+  --red-400: #e0565a;
+  --red-50: #fdeeee;
+
+  --gold-500: #d99a26;
+  --gold-400: #f0b53f;
+
+  --green-600: #15803d;
+  --green-500: #1f9d55;
+  --green-50: #e9f7ee;
+
+  --paper: #f6f4ee;
+  --card: #ffffff;
+  --ink: #16213c;
+  --ink-soft: #3c4763;
+  --muted: #6b7590;
+  --line: #e4e1d6;
+
+  /* Shape & depth */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 1px 2px rgba(18, 34, 74, 0.08);
+  --shadow-md: 0 6px 20px -6px rgba(18, 34, 74, 0.18);
+  --shadow-lg: 0 18px 44px -14px rgba(18, 34, 74, 0.32);
+
+  /* Type */
+  --font-display: "Sora", "Inter", system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ---------- App shell ---------- */
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  flex: 1;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 28px 20px 72px;
+  animation: screen-in 0.35s ease both;
+}
+
+.screen.narrow {
+  max-width: 720px;
+}
+
+@keyframes screen-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(12, 23, 48, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.navbar-inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--red-500), var(--red-600));
+  display: grid;
+  place-items: center;
+  box-shadow: 0 4px 12px rgba(209, 52, 56, 0.4);
+  flex-shrink: 0;
+}
+
+.brand small {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 10.5px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.72);
+  white-space: nowrap;
+  transition: all 0.18s ease;
+  border: none;
+  background: transparent;
+}
+
+.nav-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.nav-link.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 13px 26px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  line-height: 1;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn svg {
+  width: 17px;
+  height: 17px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--red-500), var(--red-600));
+  color: #fff;
+  box-shadow: 0 8px 20px -6px rgba(209, 52, 56, 0.5);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 10px 26px -6px rgba(209, 52, 56, 0.6);
+  transform: translateY(-1px);
+}
+
+.btn-navy {
+  background: linear-gradient(135deg, var(--navy-700), var(--navy-900));
+  color: #fff;
+  box-shadow: 0 8px 20px -6px rgba(18, 34, 74, 0.5);
+}
+
+.btn-navy:hover {
+  transform: translateY(-1px);
+}
+
+.btn-ghost {
+  background: var(--card);
+  color: var(--ink);
+  border: 1.5px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-ghost:hover {
+  border-color: var(--navy-600);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-sm {
+  padding: 10px 18px;
+  font-size: 13.5px;
+}
+
+/* Icon button (back / close) */
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid var(--line);
+  background: var(--card);
+  display: inline-grid;
+  place-items: center;
+  color: var(--ink-soft);
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.icon-btn:hover {
+  border-color: var(--navy-600);
+  color: var(--navy-800);
+  transform: translateY(-1px);
+}
+
+.icon-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* ---------- Screen header ---------- */
+
+.screen-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.screen-head-text h1 {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.screen-head-text p {
+  color: var(--muted);
+  font-size: 14.5px;
+  margin-top: 4px;
+}
+
+/* ---------- Cards ---------- */
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(228, 225, 214, 0.7);
+}
+
+/* ---------- Progress bar ---------- */
+
+.progress-track {
+  height: 10px;
+  border-radius: var(--radius-pill);
+  background: var(--navy-50);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--navy-600), var(--navy-800));
+  transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.progress-fill.red {
+  background: linear-gradient(90deg, var(--red-400), var(--red-600));
+}
+
+.progress-fill.green {
+  background: linear-gradient(90deg, var(--green-500), var(--green-600));
+}
+
+/* ---------- Pills / tags ---------- */
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--navy-50);
+  color: var(--navy-700);
+}
+
+.tag.red {
+  background: var(--red-50);
+  color: var(--red-600);
+}
+
+.tag.green {
+  background: var(--green-50);
+  color: var(--green-600);
+}
+
+.tag.gold {
+  background: #fdf3e0;
+  color: var(--gold-500);
+}
+
+/* ---------- Empty state ---------- */
+
+.empty-state {
+  text-align: center;
+  padding: 56px 24px;
+  color: var(--muted);
+}
+
+.empty-state .empty-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  background: var(--navy-50);
+  display: grid;
+  place-items: center;
+  margin: 0 auto 16px;
+  color: var(--navy-600);
+}
+
+.empty-state .empty-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.empty-state h3 {
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+/* ---------- Shake (validation nudge) ---------- */
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-7px); }
+  40%, 80% { transform: translateX(7px); }
+}
+
+.shake {
+  animation: shake 0.45s ease;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 640px) {
+  .screen {
+    padding: 20px 14px 64px;
+  }
+
+  .brand span.brand-name {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 9px 11px;
+    font-size: 13px;
+  }
+
+  .screen-head-text h1 {
+    font-size: 22px;
+  }
+}
