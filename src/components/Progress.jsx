@@ -32,17 +32,24 @@ function Progress() {
     refresh();
   };
 
-  const best = attempts.reduce((m, a) => Math.max(m, a.score || 0), 0);
-  const avg =
+  const bestAttempt = attempts.reduce(
+    (m, a) => ((a.score || 0) > (m?.score || 0) ? a : m),
+    null
+  );
+  const avgPct =
     attempts.length > 0
-      ? (attempts.reduce((s, a) => s + (a.score || 0), 0) / attempts.length).toFixed(1)
+      ? Math.round(
+          (attempts.reduce((s, a) => s + (a.score || 0) / (a.total || 20), 0) /
+            attempts.length) *
+            100
+        )
       : null;
   const masteryPct = Math.round((mastered / AllData.length) * 100);
 
   const stats = [
     { icon: <IconTarget />, label: "Quizzes taken", value: attempts.length, cls: "navy" },
-    { icon: <IconTrophy />, label: "Best score", value: attempts.length ? `${best}/10` : "—", cls: "gold" },
-    { icon: <IconChart />, label: "Average score", value: avg ? `${avg}/10` : "—", cls: "red" },
+    { icon: <IconTrophy />, label: "Best score", value: bestAttempt ? `${bestAttempt.score}/${bestAttempt.total || 20}` : "—", cls: "gold" },
+    { icon: <IconChart />, label: "Average score", value: avgPct !== null ? `${avgPct}%` : "—", cls: "red" },
     { icon: <IconCheck />, label: "Questions mastered", value: `${mastered}/${AllData.length}`, cls: "green" },
   ];
 

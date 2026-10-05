@@ -4,7 +4,7 @@ import "../styles/Result.css";
 import { loadJSON } from "../utils/quiz.js";
 import { IconX, IconRotate, IconEye, IconTrophy, IconArrowRight } from "./icons.jsx";
 
-const PASS_MARK = 6;
+const PASS_MARK = 12;
 
 function Result() {
   const [score, setScore] = useState(null);

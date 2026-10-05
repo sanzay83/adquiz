@@ -19,7 +19,7 @@ const modes = [
     to: "/quiz",
     icon: <IconTarget />,
     title: "Practice Quiz",
-    desc: "10 random questions, just like the real test. Score 6+ to pass.",
+    desc: "20 random questions, just like the real test. Score 12+ to pass.",
     accent: "red",
     cta: "Start quiz",
   },
@@ -61,12 +61,16 @@ function Home() {
   const stats = useMemo(() => {
     const mastered = loadJSON("correctQuestionIds", []).length;
     const attempts = loadJSON("pastAttempts", []);
-    const best = attempts.reduce((m, a) => Math.max(m, a.score || 0), 0);
+    const bestAttempt = attempts.reduce(
+      (m, a) => ((a.score || 0) > (m?.score || 0) ? a : m),
+      null
+    );
     return {
       mastered,
       total: AllData.length,
       attempts: attempts.length,
-      best,
+      best: bestAttempt ? bestAttempt.score : 0,
+      bestTotal: bestAttempt ? bestAttempt.total || 20 : 20,
     };
   }, []);
 
@@ -145,7 +149,7 @@ function Home() {
             <IconTrophy />
           </span>
           <div>
-            <strong>{stats.best > 0 ? `${stats.best}/10` : "—"}</strong>
+            <strong>{stats.best > 0 ? `${stats.best}/${stats.bestTotal}` : "—"}</strong>
             <span>Best quiz score</span>
           </div>
         </div>

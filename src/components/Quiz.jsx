@@ -5,7 +5,7 @@ import "../styles/Quiz.css";
 import { pickRandomQuestions, loadJSON, saveJSON, recordAttempt } from "../utils/quiz.js";
 import { IconArrowLeft, IconArrowRight, IconX, IconCheck } from "./icons.jsx";
 
-const TOTAL = 10;
+const TOTAL = 20;
 const LETTERS = ["A", "B", "C", "D"];
 
 function Quiz() {

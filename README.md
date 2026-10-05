@@ -4,7 +4,7 @@ Practice app for the **U.S. citizenship (naturalization) civics test** — built
 
 ## Features
 
-- **Practice Quiz** — 10 random questions per round (skips ones you've already mastered), pass mark 6/10
+- **Practice Quiz** — 20 random questions per round (skips ones you've already mastered), pass mark 12/20 — just like the real 2025 test
 - **Quiz Marathon** — all 124 questions back-to-back with instant feedback, live score & streak tracking
 - **Flashcards** — 3D flip cards for all 128 civics Q&As; mark cards as known, shuffle, keyboard support
 - **Study Material** — tabbed browser for Civics Q&A, Reading vocabulary and Writing vocabulary, with search
