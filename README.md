@@ -32,3 +32,5 @@ Question banks live in `src/assets/`:
 | `data.json` | 99 multiple-choice civics questions |
 | `studyData.json` | 100 civics Q&As |
 | `reading.json` / `writing.json` | Reading & writing vocabulary |
+
+<!-- auto-deploy wired 2026-10-05 -->
